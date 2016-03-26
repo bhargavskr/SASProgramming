@@ -1,0 +1,6000 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<meta name="Generator" content="SAS Software Version 9.4, see www.sas.com">
+<meta http-equiv="Content-type" content="text/html; charset=windows-1252">
+<title>SAS Output</title>
+<style type="text/css">
+<!--
+.aftercaption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  padding-top: 4pt;
+}
+.batch
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: 'SAS Monospace', 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  padding: 7px;
+}
+.beforecaption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.body
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.bodydate
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  text-align: right;
+  vertical-align: top;
+  width: 100%;
+}
+.bycontentfolder
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.byline
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.bylinecontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.caption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.cell
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.container
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.contentfolder
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.contentitem
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.contentproclabel
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.contentprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.contents
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.contentsdate
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.contenttitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.continued
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  width: 100%;
+}
+.data
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.dataemphasis
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.dataemphasisfixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.dataempty
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.datafixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.datastrong
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.datastrongfixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.date
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.document
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+a:link {
+color:#0000FF
+}
+a:visited {
+color:#800080
+}
+a:active {
+color:#800080
+}
+.errorbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.errorcontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.errorcontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.extendedpage
+{
+  background-color: #FAFBFE;
+  border: 1pt solid #000000;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+}
+.fatalbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.fatalcontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.fatalcontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.folderaction
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.footer
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footeremphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.footeremphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.footerempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footerfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.footerstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footerstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.frame
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.graph
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.header
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headeremphasis
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.headeremphasisfixed
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.headerempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.headersandfooters
+{
+  background-color: #EDF2F9;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerstrong
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerstrongfixed
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.index
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.indexaction
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.indexitem
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.indexprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.indextitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.layoutcontainer
+{
+  border: 0px solid #000000;
+  border-spacing: 30px;
+}
+.layoutregion
+{
+  border: 0px solid #000000;
+  border-spacing: 30px;
+}
+.linecontent
+{
+  background-color: #FAFBFE;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.list
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: disc;
+}
+.list10
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list2
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: circle;
+}
+.list3
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list4
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list5
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list6
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list7
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list8
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list9
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: disc;
+}
+.listitem10
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem2
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: circle;
+}
+.listitem3
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem4
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem5
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem6
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem7
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem8
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem9
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.note
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.notebanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.notecontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.notecontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.output
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.pageno
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  text-align: right;
+  vertical-align: top;
+}
+.pages
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.pagesdate
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.pagesitem
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.pagesproclabel
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.pagesprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.pagestitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.paragraph
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.parskip
+{
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.prepage
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+}
+.proctitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.proctitlefixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooter
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooteremphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowfooteremphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowfooterempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooterfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.rowfooterstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooterstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheader
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderemphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowheaderemphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowheaderempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.rowheaderstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemfooter
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter10
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter2
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter3
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter4
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter5
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter6
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter7
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter8
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter9
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemtitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle10
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle2
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle3
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle4
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle5
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle6
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle7
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle8
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle9
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systitleandfootercontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.table
+{
+  border-bottom-width: 0px;
+  border-collapse: collapse;
+  border-color: #C1C1C1;
+  border-left-width: 1px;
+  border-right-width: 0px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 1px;
+}
+.top_stacked_value
+{
+  padding-bottom: 1px;
+  border: 0;
+}
+.middle_stacked_value
+{
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border: 0;
+}
+.bottom_stacked_value
+{
+  padding-top: 1px;
+  border: 0;
+}
+.titleandnotecontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.titlesandfooters
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.usertext
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.warnbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.warncontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.warncontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.l {text-align: left }
+.c {text-align: center }
+.r {text-align: right }
+.d {text-align: right }
+.j {text-align: justify }
+.t {vertical-align: top }
+.m {vertical-align: middle }
+.b {vertical-align: bottom }
+TD, TH {vertical-align: top }
+.stacked_cell{padding: 0 }
+-->
+</style>
+<script language="javascript" type="text/javascript">
+<!-- 
+function startup(){
+
+}
+function shutdown(){
+
+}
+
+//-->
+</script>
+
+</head>
+<body onload="startup()" onunload="shutdown()" class="body">
+
+<script language="javascript" type="text/javascript">
+<!-- 
+var _info = navigator.userAgent
+var _ie = (_info.indexOf("MSIE") > 0
+          && _info.indexOf("Win") > 0
+          && _info.indexOf("Windows 3.1") < 0);
+var _ie64 = _info.indexOf("x64") > 0
+
+//-->
+</script>
+
+<div class="branch">
+<a name="IDX"></a>
+<table class="systitleandfootercontainer" rules="none" frame="void" summary="Page Layout" border="0" cellpadding="1" cellspacing="1" width="100%">
+<tbody><tr>
+<td class="c systemtitle"> Average Salary For All the Employees (Table Staff)  </td>
+</tr>
+</tbody></table><br>
+<div>
+<div align="center">
+<table class="table" rules="all" frame="box" summary="Procedure SQL: Query Results" bordercolor="#C1C1C1" cellpadding="5" cellspacing="0">
+<colgroup>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r b header" scope="col">AvgSalary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="r data">38041.51</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<p style="page-break-after: always;"><br></p><hr size="3">
+<a name="IDX1"></a>
+<table class="systitleandfootercontainer" rules="none" frame="void" summary="Page Layout" border="0" cellpadding="1" cellspacing="1" width="100%">
+<tbody><tr>
+<td class="c systemtitle"> Average Salary for each job title, ordered by job title </td>
+</tr>
+</tbody></table><br>
+<div>
+<div align="center">
+<table class="table" rules="all" frame="box" summary="Procedure SQL: Query Results" bordercolor="#C1C1C1" cellpadding="5" cellspacing="0">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="l b header" scope="col">Employee Job Title</th>
+<th class="r b header" scope="col">AvgSalary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l data">Account Manager</td>
+<td class="r data">46090</td>
+</tr>
+<tr>
+<td class="l data">Accountant I</td>
+<td class="r data">31563</td>
+</tr>
+<tr>
+<td class="l data">Accountant II</td>
+<td class="r data">37284</td>
+</tr>
+<tr>
+<td class="l data">Accountant III</td>
+<td class="r data">37492.5</td>
+</tr>
+<tr>
+<td class="l data">Administration Manager</td>
+<td class="r data">47415</td>
+</tr>
+<tr>
+<td class="l data">Applications Developer I</td>
+<td class="r data">42760</td>
+</tr>
+<tr>
+<td class="l data">Applications Developer II</td>
+<td class="r data">47315</td>
+</tr>
+<tr>
+<td class="l data">Applications Developer IV</td>
+<td class="r data">55751.67</td>
+</tr>
+<tr>
+<td class="l data">Auditing Manager</td>
+<td class="r data">53400</td>
+</tr>
+<tr>
+<td class="l data">Auditor I</td>
+<td class="r data">42190</td>
+</tr>
+<tr>
+<td class="l data">Auditor II</td>
+<td class="r data">46545</td>
+</tr>
+<tr>
+<td class="l data">Auditor III</td>
+<td class="r data">51950</td>
+</tr>
+<tr>
+<td class="l data">BI Administrator IV</td>
+<td class="r data">58530</td>
+</tr>
+<tr>
+<td class="l data">BI Architect II</td>
+<td class="r data">47155</td>
+</tr>
+<tr>
+<td class="l data">BI Specialist II</td>
+<td class="r data">44425</td>
+</tr>
+<tr>
+<td class="l data">Building Admin. Manager</td>
+<td class="r data">48380</td>
+</tr>
+<tr>
+<td class="l data">Business Analyst II</td>
+<td class="r data">53885</td>
+</tr>
+<tr>
+<td class="l data">Business Analyst III</td>
+<td class="r data">59130</td>
+</tr>
+<tr>
+<td class="l data">Cabinet Maker II</td>
+<td class="r data">28090</td>
+</tr>
+<tr>
+<td class="l data">Cabinet Maker III</td>
+<td class="r data">31670</td>
+</tr>
+<tr>
+<td class="l data">Chief Executive Officer</td>
+<td class="r data">433800</td>
+</tr>
+<tr>
+<td class="l data">Chief Financial Officer</td>
+<td class="r data">268455</td>
+</tr>
+<tr>
+<td class="l data">Chief Marketing Officer</td>
+<td class="r data">207885</td>
+</tr>
+<tr>
+<td class="l data">Chief Sales Officer</td>
+<td class="r data">243190</td>
+</tr>
+<tr>
+<td class="l data">Clerk I</td>
+<td class="r data">26772.5</td>
+</tr>
+<tr>
+<td class="l data">Concession Assistant I</td>
+<td class="r data">26840</td>
+</tr>
+<tr>
+<td class="l data">Concession Assistant II</td>
+<td class="r data">28090</td>
+</tr>
+<tr>
+<td class="l data">Concession Assistant III</td>
+<td class="r data">28070</td>
+</tr>
+<tr>
+<td class="l data">Concession Consultant I</td>
+<td class="r data">32785</td>
+</tr>
+<tr>
+<td class="l data">Concession Consultant II</td>
+<td class="r data">33292.5</td>
+</tr>
+<tr>
+<td class="l data">Concession Consultant III</td>
+<td class="r data">36930</td>
+</tr>
+<tr>
+<td class="l data">Concession Director</td>
+<td class="r data">48435</td>
+</tr>
+<tr>
+<td class="l data">Concession Manager</td>
+<td class="r data">43635</td>
+</tr>
+<tr>
+<td class="l data">Corp. Comm. Manager</td>
+<td class="r data">46580</td>
+</tr>
+<tr>
+<td class="l data">Corp. Comm. Specialist I</td>
+<td class="r data">32460</td>
+</tr>
+<tr>
+<td class="l data">Corp. Comm. Specialist II</td>
+<td class="r data">33950</td>
+</tr>
+<tr>
+<td class="l data">Director</td>
+<td class="r data">160131.7</td>
+</tr>
+<tr>
+<td class="l data">ETL Specialist I</td>
+<td class="r data">47155</td>
+</tr>
+<tr>
+<td class="l data">ETL Specialist II</td>
+<td class="r data">53740</td>
+</tr>
+<tr>
+<td class="l data">Electrician II</td>
+<td class="r data">27160</td>
+</tr>
+<tr>
+<td class="l data">Electrician III</td>
+<td class="r data">28510</td>
+</tr>
+<tr>
+<td class="l data">Electrician IV</td>
+<td class="r data">30255</td>
+</tr>
+<tr>
+<td class="l data">Events Manager</td>
+<td class="r data">53015</td>
+</tr>
+<tr>
+<td class="l data">Finance Manager</td>
+<td class="r data">58200</td>
+</tr>
+<tr>
+<td class="l data">Financial Analyst II</td>
+<td class="r data">37510</td>
+</tr>
+<tr>
+<td class="l data">Financial Analyst III</td>
+<td class="r data">42605</td>
+</tr>
+<tr>
+<td class="l data">Financial Controller I</td>
+<td class="r data">43590</td>
+</tr>
+<tr>
+<td class="l data">Financial Controller II</td>
+<td class="r data">47000</td>
+</tr>
+<tr>
+<td class="l data">Financial Controller III</td>
+<td class="r data">52573.33</td>
+</tr>
+<tr>
+<td class="l data">HR Analyst II</td>
+<td class="r data">42635</td>
+</tr>
+<tr>
+<td class="l data">HR Generalist I</td>
+<td class="r data">27365</td>
+</tr>
+<tr>
+<td class="l data">HR Generalist II</td>
+<td class="r data">27370</td>
+</tr>
+<tr>
+<td class="l data">HR Generalist III</td>
+<td class="r data">32580</td>
+</tr>
+<tr>
+<td class="l data">HR Manager</td>
+<td class="r data">62995</td>
+</tr>
+<tr>
+<td class="l data">HR Specialist I</td>
+<td class="r data">42302.5</td>
+</tr>
+<tr>
+<td class="l data">HR Specialist II</td>
+<td class="r data">45155</td>
+</tr>
+<tr>
+<td class="l data">IS Administrator I</td>
+<td class="r data">43325</td>
+</tr>
+<tr>
+<td class="l data">IS Administrator II</td>
+<td class="r data">47285</td>
+</tr>
+<tr>
+<td class="l data">IS Administrator III</td>
+<td class="r data">55400</td>
+</tr>
+<tr>
+<td class="l data">IS Architect III</td>
+<td class="r data">58375</td>
+</tr>
+<tr>
+<td class="l data">IS Director</td>
+<td class="r data">80210</td>
+</tr>
+<tr>
+<td class="l data">Logistics Coordinator I</td>
+<td class="r data">36110</td>
+</tr>
+<tr>
+<td class="l data">Logistics Coordinator II</td>
+<td class="r data">42527.5</td>
+</tr>
+<tr>
+<td class="l data">Logistics Manager</td>
+<td class="r data">62840</td>
+</tr>
+<tr>
+<td class="l data">Marketing Assistant I</td>
+<td class="r data">27380</td>
+</tr>
+<tr>
+<td class="l data">Marketing Assistant II</td>
+<td class="r data">29544</td>
+</tr>
+<tr>
+<td class="l data">Marketing Assistant III</td>
+<td class="r data">31630</td>
+</tr>
+<tr>
+<td class="l data">Marketing Assistant IV</td>
+<td class="r data">34925</td>
+</tr>
+<tr>
+<td class="l data">Marketing Manager</td>
+<td class="r data">63323.33</td>
+</tr>
+<tr>
+<td class="l data">Office Administrator I</td>
+<td class="r data">31645</td>
+</tr>
+<tr>
+<td class="l data">Office Administrator II</td>
+<td class="r data">34850</td>
+</tr>
+<tr>
+<td class="l data">Office Assistant I</td>
+<td class="r data">26600</td>
+</tr>
+<tr>
+<td class="l data">Office Assistant II</td>
+<td class="r data">26752.5</td>
+</tr>
+<tr>
+<td class="l data">Office Assistant III</td>
+<td class="r data">29841.67</td>
+</tr>
+<tr>
+<td class="l data">Office Assistant IV</td>
+<td class="r data">32745</td>
+</tr>
+<tr>
+<td class="l data">Pricing Manager</td>
+<td class="r data">56385</td>
+</tr>
+<tr>
+<td class="l data">Pricing Specialist</td>
+<td class="r data">47605</td>
+</tr>
+<tr>
+<td class="l data">Project Manager</td>
+<td class="r data">59140</td>
+</tr>
+<tr>
+<td class="l data">Purchasing Agent I</td>
+<td class="r data">30976.67</td>
+</tr>
+<tr>
+<td class="l data">Purchasing Agent II</td>
+<td class="r data">34488</td>
+</tr>
+<tr>
+<td class="l data">Purchasing Agent III</td>
+<td class="r data">35868.75</td>
+</tr>
+<tr>
+<td class="l data">Purchasing Manager</td>
+<td class="r data">63191.67</td>
+</tr>
+<tr>
+<td class="l data">Recruiter I</td>
+<td class="r data">32620</td>
+</tr>
+<tr>
+<td class="l data">Recruiter II</td>
+<td class="r data">35715</td>
+</tr>
+<tr>
+<td class="l data">Recruiter III</td>
+<td class="r data">42975</td>
+</tr>
+<tr>
+<td class="l data">Recruitment Manager</td>
+<td class="r data">63915</td>
+</tr>
+<tr>
+<td class="l data">Sales Manager</td>
+<td class="r data">90998.75</td>
+</tr>
+<tr>
+<td class="l data">Sales Rep. I</td>
+<td class="r data">26498.33</td>
+</tr>
+<tr>
+<td class="l data">Sales Rep. II</td>
+<td class="r data">27437.07</td>
+</tr>
+<tr>
+<td class="l data">Sales Rep. III</td>
+<td class="r data">29446.32</td>
+</tr>
+<tr>
+<td class="l data">Sales Rep. IV</td>
+<td class="r data">31654.38</td>
+</tr>
+<tr>
+<td class="l data">Secretary I</td>
+<td class="r data">27110</td>
+</tr>
+<tr>
+<td class="l data">Secretary II</td>
+<td class="r data">28095</td>
+</tr>
+<tr>
+<td class="l data">Secretary III</td>
+<td class="r data">28952.5</td>
+</tr>
+<tr>
+<td class="l data">Secretary IV</td>
+<td class="r data">31750</td>
+</tr>
+<tr>
+<td class="l data">Security Guard I</td>
+<td class="r data">25905</td>
+</tr>
+<tr>
+<td class="l data">Security Guard II</td>
+<td class="r data">27232.5</td>
+</tr>
+<tr>
+<td class="l data">Security Manager</td>
+<td class="r data">31090</td>
+</tr>
+<tr>
+<td class="l data">Senior Logistics Manager</td>
+<td class="r data">82782.5</td>
+</tr>
+<tr>
+<td class="l data">Senior Marketing Manager</td>
+<td class="r data">87420</td>
+</tr>
+<tr>
+<td class="l data">Senior Project Manager</td>
+<td class="r data">80755</td>
+</tr>
+<tr>
+<td class="l data">Senior Sales Manager</td>
+<td class="r data">95090</td>
+</tr>
+<tr>
+<td class="l data">Senior Strategist</td>
+<td class="r data">76105</td>
+</tr>
+<tr>
+<td class="l data">Service Administrator I</td>
+<td class="r data">31720</td>
+</tr>
+<tr>
+<td class="l data">Service Administrator III</td>
+<td class="r data">31590</td>
+</tr>
+<tr>
+<td class="l data">Service Assistant I</td>
+<td class="r data">25810</td>
+</tr>
+<tr>
+<td class="l data">Service Assistant II</td>
+<td class="r data">29412.5</td>
+</tr>
+<tr>
+<td class="l data">Services Assistant IV</td>
+<td class="r data">36370</td>
+</tr>
+<tr>
+<td class="l data">Services Manager</td>
+<td class="r data">47785</td>
+</tr>
+<tr>
+<td class="l data">Shipping Administrator I</td>
+<td class="r data">27420</td>
+</tr>
+<tr>
+<td class="l data">Shipping Agent I</td>
+<td class="r data">26893.33</td>
+</tr>
+<tr>
+<td class="l data">Shipping Agent II</td>
+<td class="r data">33123.33</td>
+</tr>
+<tr>
+<td class="l data">Shipping Agent III</td>
+<td class="r data">38810</td>
+</tr>
+<tr>
+<td class="l data">Shipping Manager</td>
+<td class="r data">57477</td>
+</tr>
+<tr>
+<td class="l data">Strategist II</td>
+<td class="r data">52540</td>
+</tr>
+<tr>
+<td class="l data">Systems Architect II</td>
+<td class="r data">54760</td>
+</tr>
+<tr>
+<td class="l data">Systems Architect IV</td>
+<td class="r data">61115</td>
+</tr>
+<tr>
+<td class="l data">Technical Manager</td>
+<td class="r data">48075</td>
+</tr>
+<tr>
+<td class="l data">Technician I</td>
+<td class="r data">26140</td>
+</tr>
+<tr>
+<td class="l data">Technician II</td>
+<td class="r data">29225</td>
+</tr>
+<tr>
+<td class="l data">Temp. Sales Rep.</td>
+<td class="r data">26265.83</td>
+</tr>
+<tr>
+<td class="l data">Trainee</td>
+<td class="r data">25477.22</td>
+</tr>
+<tr>
+<td class="l data">Trainer I</td>
+<td class="r data">33090</td>
+</tr>
+<tr>
+<td class="l data">Trainer II</td>
+<td class="r data">34000</td>
+</tr>
+<tr>
+<td class="l data">Trainer III</td>
+<td class="r data">39330</td>
+</tr>
+<tr>
+<td class="l data">Training Manager</td>
+<td class="r data">48335</td>
+</tr>
+<tr>
+<td class="l data">Vice President</td>
+<td class="r data">194885</td>
+</tr>
+<tr>
+<td class="l data">Warehouse Assistant I</td>
+<td class="r data">26261.5</td>
+</tr>
+<tr>
+<td class="l data">Warehouse Assistant II</td>
+<td class="r data">27295</td>
+</tr>
+<tr>
+<td class="l data">Warehouse Assistant III</td>
+<td class="r data">28197.5</td>
+</tr>
+<tr>
+<td class="l data">Warehouse Assistant IV</td>
+<td class="r data">29625</td>
+</tr>
+<tr>
+<td class="l data">Warehouse Manager</td>
+<td class="r data">43615</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br></p><hr size="3">
+<a name="IDX2"></a>
+<table class="systitleandfootercontainer" rules="none" frame="void" summary="Page Layout" border="0" cellpadding="1" cellspacing="1" width="100%">
+<tbody><tr>
+<td class="c systemtitle"> Total sales for each product category ordered by sales  </td>
+</tr>
+</tbody></table><br>
+<div>
+<div align="center">
+<table class="table" rules="all" frame="box" summary="Procedure SQL: Query Results" bordercolor="#C1C1C1" cellpadding="5" cellspacing="0">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="l b header" scope="col">Product Category</th>
+<th class="r b header" scope="col">Total_Sales</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l data">Swim Sports</td>
+<td class="r data">$383.10</td>
+</tr>
+<tr>
+<td class="l data">Children Sports</td>
+<td class="r data">$1,616.40</td>
+</tr>
+<tr>
+<td class="l data">Team Sports</td>
+<td class="r data">$2,043.77</td>
+</tr>
+<tr>
+<td class="l data">Racket Sports</td>
+<td class="r data">$3,334.30</td>
+</tr>
+<tr>
+<td class="l data">Running - Jogging</td>
+<td class="r data">$3,387.80</td>
+</tr>
+<tr>
+<td class="l data">Winter Sports</td>
+<td class="r data">$4,349.33</td>
+</tr>
+<tr>
+<td class="l data">Shoes</td>
+<td class="r data">$5,701.10</td>
+</tr>
+<tr>
+<td class="l data">Indoor Sports</td>
+<td class="r data">$6,383.20</td>
+</tr>
+<tr>
+<td class="l data">Clothes</td>
+<td class="r data">$11,043.59</td>
+</tr>
+<tr>
+<td class="l data">Assorted Sports Articles</td>
+<td class="r data">$14,686.70</td>
+</tr>
+<tr>
+<td class="l data">Golf</td>
+<td class="r data">$17,286.18</td>
+</tr>
+<tr>
+<td class="l data">Outdoors</td>
+<td class="r data">$29,862.00</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br></p><hr size="3">
+<a name="IDX3"></a>
+<table class="systitleandfootercontainer" rules="none" frame="void" summary="Page Layout" border="0" cellpadding="1" cellspacing="1" width="100%">
+<tbody><tr>
+<td class="c systemtitle"> Prodcut Category with total sales less than $5000 ordered by product category  </td>
+</tr>
+</tbody></table><br>
+<div>
+<div align="center">
+<table class="table" rules="all" frame="box" summary="Procedure SQL: Query Results" bordercolor="#C1C1C1" cellpadding="5" cellspacing="0">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="l b header" scope="col">Product Category</th>
+<th class="r b header" scope="col">Total_Sales</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l data">Children Sports</td>
+<td class="r data">$1,616.40</td>
+</tr>
+<tr>
+<td class="l data">Racket Sports</td>
+<td class="r data">$3,334.30</td>
+</tr>
+<tr>
+<td class="l data">Running - Jogging</td>
+<td class="r data">$3,387.80</td>
+</tr>
+<tr>
+<td class="l data">Swim Sports</td>
+<td class="r data">$383.10</td>
+</tr>
+<tr>
+<td class="l data">Team Sports</td>
+<td class="r data">$2,043.77</td>
+</tr>
+<tr>
+<td class="l data">Winter Sports</td>
+<td class="r data">$4,349.33</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br></p><hr size="3">
+<a name="IDX4"></a>
+<table class="systitleandfootercontainer" rules="none" frame="void" summary="Page Layout" border="0" cellpadding="1" cellspacing="1" width="100%">
+<tbody><tr>
+<td class="c systemtitle"> Combined orders from QTR1_2007 and QTR2_2007 </td>
+</tr>
+</tbody></table><br>
+<div>
+<div align="center">
+<table class="table" rules="all" frame="box" summary="Procedure SQL: Query Results" bordercolor="#C1C1C1" cellpadding="5" cellspacing="0">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r b header" scope="col">Order ID</th>
+<th class="r b header" scope="col">Order Type</th>
+<th class="r b header" scope="col">Customer ID</th>
+<th class="r b header" scope="col">Date Order was<br>placed by Customer</th>
+<th class="r b header" scope="col">Date Order was<br>Delivered</th>
+<th class="r b header" scope="col">Employee ID</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="r data">1241054779</td>
+<td class="r data">3</td>
+<td class="r data">24</td>
+<td class="r data">02JAN2007</td>
+<td class="r data">05JAN2007</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">1241063739</td>
+<td class="r data">1</td>
+<td class="r data">89</td>
+<td class="r data">03JAN2007</td>
+<td class="r data">04JAN2007</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">1241066216</td>
+<td class="r data">1</td>
+<td class="r data">171</td>
+<td class="r data">04JAN2007</td>
+<td class="r data">04JAN2007</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">1241086052</td>
+<td class="r data">3</td>
+<td class="r data">53</td>
+<td class="r data">06JAN2007</td>
+<td class="r data">09JAN2007</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">1241147641</td>
+<td class="r data">1</td>
+<td class="r data">53</td>
+<td class="r data">13JAN2007</td>
+<td class="r data">13JAN2007</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">1241235281</td>
+<td class="r data">1</td>
+<td class="r data">171</td>
+<td class="r data">23JAN2007</td>
+<td class="r data">30JAN2007</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">1241244297</td>
+<td class="r data">1</td>
+<td class="r data">111</td>
+<td class="r data">24JAN2007</td>
+<td class="r data">24JAN2007</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">1241263172</td>
+<td class="r data">3</td>
+<td class="r data">3959</td>
+<td class="r data">25JAN2007</td>
+<td class="r data">26JAN2007</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">1241286432</td>
+<td class="r data">3</td>
+<td class="r data">27</td>
+<td class="r data">28JAN2007</td>
+<td class="r data">02FEB2007</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">1241298131</td>
+<td class="r data">2</td>
+<td class="r data">2806</td>
+<td class="r data">29JAN2007</td>
+<td class="r data">08FEB2007</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">1241359997</td>
+<td class="r data">1</td>
+<td class="r data">12</td>
+<td class="r data">05FEB2007</td>
+<td class="r data">05FEB2007</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">1241371145</td>
+<td class="r data">1</td>
+<td class="r data">171</td>
+<td class="r data">07FEB2007</td>
+<td class="r data">07FEB2007</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">1241390440</td>
+<td class="r data">1</td>
+<td class="r data">41</td>
+<td class="r data">09FEB2007</td>
+<td class="r data">09FEB2007</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">1241461856</td>
+<td class="r data">1</td>
+<td class="r data">18</td>
+<td class="r data">16FEB2007</td>
+<td class="r data">17FEB2007</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">1241561055</td>
+<td class="r data">1</td>
+<td class="r data">171</td>
+<td class="r data">28FEB2007</td>
+<td class="r data">28FEB2007</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">1241623505</td>
+<td class="r data">3</td>
+<td class="r data">24</td>
+<td class="r data">06MAR2007</td>
+<td class="r data">09MAR2007</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">1241645664</td>
+<td class="r data">2</td>
+<td class="r data">70100</td>
+<td class="r data">09MAR2007</td>
+<td class="r data">13MAR2007</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">1241652707</td>
+<td class="r data">3</td>
+<td class="r data">27</td>
+<td class="r data">09MAR2007</td>
+<td class="r data">14MAR2007</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">1241686210</td>
+<td class="r data">1</td>
+<td class="r data">10</td>
+<td class="r data">13MAR2007</td>
+<td class="r data">19MAR2007</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">1241715610</td>
+<td class="r data">1</td>
+<td class="r data">92</td>
+<td class="r data">16MAR2007</td>
+<td class="r data">16MAR2007</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">1241731828</td>
+<td class="r data">1</td>
+<td class="r data">31</td>
+<td class="r data">18MAR2007</td>
+<td class="r data">18MAR2007</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">1241789227</td>
+<td class="r data">3</td>
+<td class="r data">17023</td>
+<td class="r data">25MAR2007</td>
+<td class="r data">30MAR2007</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">1241895594</td>
+<td class="r data">1</td>
+<td class="r data">56</td>
+<td class="r data">05APR2007</td>
+<td class="r data">09APR2007</td>
+<td class="r data">121051</td>
+</tr>
+<tr>
+<td class="r data">1241909303</td>
+<td class="r data">0</td>
+<td class="r data">46966</td>
+<td class="r data">07APR2007</td>
+<td class="r data">08APR2007</td>
+<td class="r data">99999999</td>
+</tr>
+<tr>
+<td class="r data">1241930625</td>
+<td class="r data">3</td>
+<td class="r data">27</td>
+<td class="r data">09APR2007</td>
+<td class="r data">14APR2007</td>
+<td class="r data">99999999</td>
+</tr>
+<tr>
+<td class="r data">1241977403</td>
+<td class="r data">1</td>
+<td class="r data">171</td>
+<td class="r data">15APR2007</td>
+<td class="r data">15APR2007</td>
+<td class="r data">120152</td>
+</tr>
+<tr>
+<td class="r data">1242012259</td>
+<td class="r data">1</td>
+<td class="r data">10</td>
+<td class="r data">18APR2007</td>
+<td class="r data">12APR2007</td>
+<td class="r data">121040</td>
+</tr>
+<tr>
+<td class="r data">1242012269</td>
+<td class="r data">1</td>
+<td class="r data">45</td>
+<td class="r data">18APR2007</td>
+<td class="r data">18APR2007</td>
+<td class="r data">121040</td>
+</tr>
+<tr>
+<td class="r data">1242035131</td>
+<td class="r data">1</td>
+<td class="r data">183</td>
+<td class="r data">21APR2007</td>
+<td class="r data">21APR2007</td>
+<td class="r data">120132</td>
+</tr>
+<tr>
+<td class="r data">1242076538</td>
+<td class="r data">3</td>
+<td class="r data">31</td>
+<td class="r data">25APR2007</td>
+<td class="r data">29APR2007</td>
+<td class="r data">99999999</td>
+</tr>
+<tr>
+<td class="r data">1242130888</td>
+<td class="r data">1</td>
+<td class="r data">92</td>
+<td class="r data">01MAY2007</td>
+<td class="r data">01MAY2007</td>
+<td class="r data">121086</td>
+</tr>
+<tr>
+<td class="r data">1242140006</td>
+<td class="r data">4</td>
+<td class="r data">5</td>
+<td class="r data">02MAY2007</td>
+<td class="r data">07MAY2007</td>
+<td class="r data">99999999</td>
+</tr>
+<tr>
+<td class="r data">1242140009</td>
+<td class="r data">2</td>
+<td class="r data">90</td>
+<td class="r data">02MAY2007</td>
+<td class="r data">04MAY2007</td>
+<td class="r data">99999999</td>
+</tr>
+<tr>
+<td class="r data">1242149082</td>
+<td class="r data">1</td>
+<td class="r data">90</td>
+<td class="r data">03MAY2007</td>
+<td class="r data">03MAY2007</td>
+<td class="r data">121032</td>
+</tr>
+<tr>
+<td class="r data">1242159212</td>
+<td class="r data">3</td>
+<td class="r data">5</td>
+<td class="r data">04MAY2007</td>
+<td class="r data">09MAY2007</td>
+<td class="r data">99999999</td>
+</tr>
+<tr>
+<td class="r data">1242161468</td>
+<td class="r data">3</td>
+<td class="r data">2550</td>
+<td class="r data">04MAY2007</td>
+<td class="r data">09MAY2007</td>
+<td class="r data">99999999</td>
+</tr>
+<tr>
+<td class="r data">1242162201</td>
+<td class="r data">3</td>
+<td class="r data">46966</td>
+<td class="r data">05MAY2007</td>
+<td class="r data">06MAY2007</td>
+<td class="r data">99999999</td>
+</tr>
+<tr>
+<td class="r data">1242173926</td>
+<td class="r data">3</td>
+<td class="r data">1033</td>
+<td class="r data">06MAY2007</td>
+<td class="r data">10MAY2007</td>
+<td class="r data">99999999</td>
+</tr>
+<tr>
+<td class="r data">1242185055</td>
+<td class="r data">1</td>
+<td class="r data">41</td>
+<td class="r data">08MAY2007</td>
+<td class="r data">08MAY2007</td>
+<td class="r data">120136</td>
+</tr>
+<tr>
+<td class="r data">.</td>
+<td class="r data">3</td>
+<td class="r data">70079</td>
+<td class="r data">11MAY2007</td>
+<td class="r data">14MAY2007</td>
+<td class="r data">99999999</td>
+</tr>
+<tr>
+<td class="r data">.</td>
+<td class="r data">1</td>
+<td class="r data">171</td>
+<td class="r data">13MAY2007</td>
+<td class="r data">13MAY2007</td>
+<td class="r data">120127</td>
+</tr>
+<tr>
+<td class="r data">1242259863</td>
+<td class="r data">2</td>
+<td class="r data">70187</td>
+<td class="r data">16MAY2007</td>
+<td class="r data">21MAY2007</td>
+<td class="r data">99999999</td>
+</tr>
+<tr>
+<td class="r data">1242265757</td>
+<td class="r data">1</td>
+<td class="r data">10</td>
+<td class="r data">16MAY2007</td>
+<td class="r data">16MAY2007</td>
+<td class="r data">121105</td>
+</tr>
+<tr>
+<td class="r data">1242449327</td>
+<td class="r data">3</td>
+<td class="r data">27</td>
+<td class="r data">26JUL2007</td>
+<td class="r data">26JUL2007</td>
+<td class="r data">99999999</td>
+</tr>
+<tr>
+<td class="r data">1242458099</td>
+<td class="r data">1</td>
+<td class="r data">10</td>
+<td class="r data">06JUN2007</td>
+<td class="r data">06JUN2007</td>
+<td class="r data">121071</td>
+</tr>
+<tr>
+<td class="r data">1242467585</td>
+<td class="r data">3</td>
+<td class="r data">34</td>
+<td class="r data">07JUN2007</td>
+<td class="r data">13JUN2007</td>
+<td class="r data">99999999</td>
+</tr>
+<tr>
+<td class="r data">1242477751</td>
+<td class="r data">3</td>
+<td class="r data">31</td>
+<td class="r data">08JUN2007</td>
+<td class="r data">12JUN2007</td>
+<td class="r data">99999999</td>
+</tr>
+<tr>
+<td class="r data">1242493791</td>
+<td class="r data">1</td>
+<td class="r data">5</td>
+<td class="r data">10JUN2007</td>
+<td class="r data">10JUN2007</td>
+<td class="r data">121056</td>
+</tr>
+<tr>
+<td class="r data">1242502670</td>
+<td class="r data">1</td>
+<td class="r data">31</td>
+<td class="r data">11JUN2007</td>
+<td class="r data">11JUN2007</td>
+<td class="r data">121067</td>
+</tr>
+<tr>
+<td class="r data">1242515373</td>
+<td class="r data">3</td>
+<td class="r data">17023</td>
+<td class="r data">13JUN2007</td>
+<td class="r data">18JUN2007</td>
+<td class="r data">99999999</td>
+</tr>
+<tr>
+<td class="r data">1242534503</td>
+<td class="r data">3</td>
+<td class="r data">70165</td>
+<td class="r data">15JUN2007</td>
+<td class="r data">22JUN2007</td>
+<td class="r data">99999999</td>
+</tr>
+<tr>
+<td class="r data">1242557584</td>
+<td class="r data">2</td>
+<td class="r data">89</td>
+<td class="r data">17JUN2007</td>
+<td class="r data">21JUN2007</td>
+<td class="r data">99999999</td>
+</tr>
+<tr>
+<td class="r data">1242559569</td>
+<td class="r data">1</td>
+<td class="r data">171</td>
+<td class="r data">18JUN2007</td>
+<td class="r data">18JUN2007</td>
+<td class="r data">120130</td>
+</tr>
+<tr>
+<td class="r data">1242568696</td>
+<td class="r data">2</td>
+<td class="r data">2806</td>
+<td class="r data">18JUN2007</td>
+<td class="r data">22JUN2007</td>
+<td class="r data">99999999</td>
+</tr>
+<tr>
+<td class="r data">1242578860</td>
+<td class="r data">2</td>
+<td class="r data">70100</td>
+<td class="r data">20JUN2007</td>
+<td class="r data">24JUN2007</td>
+<td class="r data">99999999</td>
+</tr>
+<tr>
+<td class="r data">1242610991</td>
+<td class="r data">1</td>
+<td class="r data">12</td>
+<td class="r data">23JUN2007</td>
+<td class="r data">23JUN2007</td>
+<td class="r data">121037</td>
+</tr>
+<tr>
+<td class="r data">1242647539</td>
+<td class="r data">1</td>
+<td class="r data">45</td>
+<td class="r data">27JUN2007</td>
+<td class="r data">27JUN2007</td>
+<td class="r data">121109</td>
+</tr>
+<tr>
+<td class="r data">1242657273</td>
+<td class="r data">1</td>
+<td class="r data">90</td>
+<td class="r data">28JUN2007</td>
+<td class="r data">28JUN2007</td>
+<td class="r data">121037</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<p style="page-break-after: always;"><br></p><hr size="3">
+<a name="IDX5"></a>
+<table class="systitleandfootercontainer" rules="none" frame="void" summary="Page Layout" border="0" cellpadding="1" cellspacing="1" width="100%">
+<tbody><tr>
+<td class="c systemtitle">Total number of orders placed during QTR1 and QTR2 of 2007 </td>
+</tr>
+</tbody></table><br>
+<div>
+<div align="center">
+<table class="table" rules="all" frame="box" summary="Procedure SQL: Query Results" bordercolor="#C1C1C1" cellpadding="5" cellspacing="0">
+<colgroup>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r b header" scope="col">Total number<br>of orders</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="r data">58</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br></p><hr size="3">
+<a name="IDX6"></a>
+<table class="systitleandfootercontainer" rules="none" frame="void" summary="Page Layout" border="0" cellpadding="1" cellspacing="1" width="100%">
+<tbody><tr>
+<td class="c systemtitle">  Left Join of PRODUCT_DIM and PRICE_LIST </td>
+</tr>
+</tbody></table><br>
+<div>
+<div align="center">
+<table class="table" rules="all" frame="box" summary="Procedure SQL: Query Results" bordercolor="#C1C1C1" cellpadding="5" cellspacing="0">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r b header" scope="col">Product ID</th>
+<th class="l b header" scope="col">Product Name</th>
+<th class="r b header" scope="col">Product ID</th>
+<th class="r b header" scope="col">Unit Sales Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="r data">220101400060</td>
+<td class="l data">2bwet 3 Cb Swimming Trunks</td>
+<td class="r data">220101400060</td>
+<td class="r data">$32.40</td>
+</tr>
+<tr>
+<td class="r data">220101400061</td>
+<td class="l data">2bwet 3 Solid Bikini</td>
+<td class="r data">220101400061</td>
+<td class="r data">$51.00</td>
+</tr>
+<tr>
+<td class="r data">230100100028</td>
+<td class="l data">4men Men's Polar Down Jacket</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240500100015</td>
+<td class="l data">A-team Pants Taffeta</td>
+<td class="r data">240500100015</td>
+<td class="r data">$58.10</td>
+</tr>
+<tr>
+<td class="r data">240100100159</td>
+<td class="l data">A-team Smoothsport Bra</td>
+<td class="r data">240100100159</td>
+<td class="r data">$31.40</td>
+</tr>
+<tr>
+<td class="r data">240500100017</td>
+<td class="l data">A-team Sweat Round Neck, Small Logo</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240300100001</td>
+<td class="l data">Abdomen Shaper</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240800100026</td>
+<td class="l data">Additive Women's Ski Pants Vent Air</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240400200022</td>
+<td class="l data">Aftm 95 Vf Long Bg-65 White</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240100200001</td>
+<td class="l data">Aim4it 16 Gram Softtip Pil</td>
+<td class="r data">240100200001</td>
+<td class="r data">$16.00</td>
+</tr>
+<tr>
+<td class="r data">240100200004</td>
+<td class="l data">Aim4it 80% Tungsten 22 Gram</td>
+<td class="r data">240100200004</td>
+<td class="r data">$35.20</td>
+</tr>
+<tr>
+<td class="r data">220100700022</td>
+<td class="l data">Alexis Women's Classic Shoes</td>
+<td class="r data">220100700022</td>
+<td class="r data">$56.90</td>
+</tr>
+<tr>
+<td class="r data">240800200009</td>
+<td class="l data">Amber Cc</td>
+<td class="r data">240800200009</td>
+<td class="r data">$87.20</td>
+</tr>
+<tr>
+<td class="r data">220101200006</td>
+<td class="l data">Anthony Bork Maggan 3/4 Long Pique</td>
+<td class="r data">220101200006</td>
+<td class="r data">$55.20</td>
+</tr>
+<tr>
+<td class="r data">240400300013</td>
+<td class="l data">Anthony Women's Tennis Cable Vest</td>
+<td class="r data">240400300013</td>
+<td class="r data">$54.30</td>
+</tr>
+<tr>
+<td class="r data">220100700023</td>
+<td class="l data">Armadillo Road Dmx Men's Running Shoes</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220100700024</td>
+<td class="l data">Armadillo Road Dmx Women's Running Shoes</td>
+<td class="r data">220100700024</td>
+<td class="r data">$104.60</td>
+</tr>
+<tr>
+<td class="r data">240700100001</td>
+<td class="l data">Armour L</td>
+<td class="r data">240700100001</td>
+<td class="r data">$23.60</td>
+</tr>
+<tr>
+<td class="r data">240700100004</td>
+<td class="l data">Armour XL</td>
+<td class="r data">240700100004</td>
+<td class="r data">$26.60</td>
+</tr>
+<tr>
+<td class="r data">220200100009</td>
+<td class="l data">Atmosphere Imara Women's Running Shoes</td>
+<td class="r data">220200100009</td>
+<td class="r data">$63.40</td>
+</tr>
+<tr>
+<td class="r data">220200100012</td>
+<td class="l data">Atmosphere Shatter Mid Shoes</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100500004</td>
+<td class="l data">Backpack Flag, 6,5x9 Cm.</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220101400004</td>
+<td class="l data">Badminton Cotton</td>
+<td class="r data">220101400004</td>
+<td class="r data">$105.70</td>
+</tr>
+<tr>
+<td class="r data">240400200036</td>
+<td class="l data">Bag  Tit.Weekend</td>
+<td class="r data">240400200036</td>
+<td class="r data">$57.10</td>
+</tr>
+<tr>
+<td class="r data">240200100007</td>
+<td class="l data">Ball Bag</td>
+<td class="r data">240200100007</td>
+<td class="r data">$24.70</td>
+</tr>
+<tr>
+<td class="r data">240100100184</td>
+<td class="l data">Barret 2.12 Men's Softboot</td>
+<td class="r data">240100100184</td>
+<td class="r data">$190.40</td>
+</tr>
+<tr>
+<td class="r data">240100100186</td>
+<td class="l data">Barret 3.1 Women's Softboot</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240700200004</td>
+<td class="l data">Baseball Orange Small</td>
+<td class="r data">240700200004</td>
+<td class="r data">$4.20</td>
+</tr>
+<tr>
+<td class="r data">240700200007</td>
+<td class="l data">Baseball White Small</td>
+<td class="r data">240700200007</td>
+<td class="r data">$5.10</td>
+</tr>
+<tr>
+<td class="r data">230100600005</td>
+<td class="l data">Basic 10, Left , Yellow/Black</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240700300002</td>
+<td class="l data">Basket Ball Pro</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240700200009</td>
+<td class="l data">Bat - Home Run M</td>
+<td class="r data">240700200009</td>
+<td class="r data">$28.00</td>
+</tr>
+<tr>
+<td class="r data">240700200010</td>
+<td class="l data">Bat - Home Run S</td>
+<td class="r data">240700200010</td>
+<td class="r data">$26.90</td>
+</tr>
+<tr>
+<td class="r data">240700200024</td>
+<td class="l data">Bat - Large</td>
+<td class="r data">240700200024</td>
+<td class="r data">$16.70</td>
+</tr>
+<tr>
+<td class="r data">240400200003</td>
+<td class="l data">Bat 5-Ply</td>
+<td class="r data">240400200003</td>
+<td class="r data">$6.20</td>
+</tr>
+<tr>
+<td class="r data">240200100034</td>
+<td class="l data">Bb Softspikes - Xp 22-pack</td>
+<td class="r data">240200100034</td>
+<td class="r data">$12.20</td>
+</tr>
+<tr>
+<td class="r data">240200200020</td>
+<td class="l data">Big Boss Houston Pants</td>
+<td class="r data">240200200020</td>
+<td class="r data">$150.10</td>
+</tr>
+<tr>
+<td class="r data">220200100035</td>
+<td class="l data">Big Guy Men's Air Deschutz Viii Shoes</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220100400005</td>
+<td class="l data">Big Guy Men's Air Force 1 Sc</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220200100090</td>
+<td class="l data">Big Guy Men's Air Terra Reach Shoes</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220200100092</td>
+<td class="l data">Big Guy Men's Air Terra Sebec Shoes</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220100100101</td>
+<td class="l data">Big Guy Men's Chaser Poplin Pants</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220100100105</td>
+<td class="l data">Big Guy Men's Clima Fit Jacket</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220100100125</td>
+<td class="l data">Big Guy Men's Dri Fit Singlet</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220100100153</td>
+<td class="l data">Big Guy Men's Fresh Soft Nylon Pants</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220200100129</td>
+<td class="l data">Big Guy Men's International Triax Shoes</td>
+<td class="r data">220200100129</td>
+<td class="r data">$80.00</td>
+</tr>
+<tr>
+<td class="r data">220100100185</td>
+<td class="l data">Big Guy Men's Micro Fiber Full Zip Jacket</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220100100189</td>
+<td class="l data">Big Guy Men's Micro Fibre Jacket</td>
+<td class="r data">220100100189</td>
+<td class="r data">$94.70</td>
+</tr>
+<tr>
+<td class="r data">220100100192</td>
+<td class="l data">Big Guy Men's Micro Fibre Shorts XXL</td>
+<td class="r data">220100100192</td>
+<td class="r data">$27.40</td>
+</tr>
+<tr>
+<td class="r data">220100100197</td>
+<td class="l data">Big Guy Men's Mid Layer Jacket</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220200100137</td>
+<td class="l data">Big Guy Men's Multicourt Ii Shoes</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100100033</td>
+<td class="l data">Big Guy Men's Packable Hiking Shorts</td>
+<td class="r data">230100100033</td>
+<td class="r data">$57.80</td>
+</tr>
+<tr>
+<td class="r data">220100100235</td>
+<td class="l data">Big Guy Men's Running Shorts Dri.Fit</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220100100241</td>
+<td class="l data">Big Guy Men's Santos Shorts Dri Fit</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220100100272</td>
+<td class="l data">Big Guy Men's T-Shirt</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220100100273</td>
+<td class="l data">Big Guy Men's T-Shirt Dri Fit</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220100100298</td>
+<td class="l data">Big Guy Men's Twill Pants Golf</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220100100304</td>
+<td class="l data">Big Guy Men's Victory Peach Poplin Pants</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220100100309</td>
+<td class="l data">Big Guy Men's Woven Warm Up</td>
+<td class="r data">220100100309</td>
+<td class="r data">$96.30</td>
+</tr>
+<tr>
+<td class="r data">240500200042</td>
+<td class="l data">Bike.Pants Short Biking Pants</td>
+<td class="r data">240500200042</td>
+<td class="r data">$40.60</td>
+</tr>
+<tr>
+<td class="r data">240800200010</td>
+<td class="l data">Black Morphe</td>
+<td class="r data">240800200010</td>
+<td class="r data">$125.20</td>
+</tr>
+<tr>
+<td class="r data">230100200004</td>
+<td class="l data">Black/Black</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240300200009</td>
+<td class="l data">Blues Jazz Pants Suplex</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240200200024</td>
+<td class="l data">Bogie Golf Fleece with small Zipper</td>
+<td class="r data">240200200024</td>
+<td class="r data">$125.40</td>
+</tr>
+<tr>
+<td class="r data">210200500007</td>
+<td class="l data">Bozeman Rain &amp; Storm Set</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220100800001</td>
+<td class="l data">Bra Top Wom.Fitn.Cl</td>
+<td class="r data">220100800001</td>
+<td class="r data">$38.60</td>
+</tr>
+<tr>
+<td class="r data">220101400363</td>
+<td class="l data">Brafit Swim Tights</td>
+<td class="r data">220101400363</td>
+<td class="r data">$39.00</td>
+</tr>
+<tr>
+<td class="r data">230100400007</td>
+<td class="l data">Breaker Commandos Cap</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100400010</td>
+<td class="l data">Breaker Frozen Husky Hat</td>
+<td class="r data">230100400010</td>
+<td class="r data">$40.20</td>
+</tr>
+<tr>
+<td class="r data">230100400012</td>
+<td class="l data">Breaker Russia Cap</td>
+<td class="r data">230100400012</td>
+<td class="r data">$30.30</td>
+</tr>
+<tr>
+<td class="r data">240500200056</td>
+<td class="l data">Breath-brief Long Underpants XXL</td>
+<td class="r data">240500200056</td>
+<td class="r data">$24.50</td>
+</tr>
+<tr>
+<td class="r data">240200100043</td>
+<td class="l data">Bretagne Performance Tg Men's Golf Shoes L.</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240200100046</td>
+<td class="l data">Bretagne Soft-Tech Men's Glove, left</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240200100050</td>
+<td class="l data">Bretagne St2 Men's Golf Glove, left</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240200100051</td>
+<td class="l data">Bretagne Stabilites 2000 Goretex Shoes</td>
+<td class="r data">240200100051</td>
+<td class="r data">$140.30</td>
+</tr>
+<tr>
+<td class="r data">240200100052</td>
+<td class="l data">Bretagne Stabilities Tg Men's Golf Shoes</td>
+<td class="r data">240200100052</td>
+<td class="r data">$100.60</td>
+</tr>
+<tr>
+<td class="r data">240200100053</td>
+<td class="l data">Bretagne Stabilities Women's Golf Shoes</td>
+<td class="r data">240200100053</td>
+<td class="r data">$87.20</td>
+</tr>
+<tr>
+<td class="r data">210200600056</td>
+<td class="l data">Butch T-Shirt with V-Neck</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240100100029</td>
+<td class="l data">Buzz Saw</td>
+<td class="r data">240100100029</td>
+<td class="r data">$119.50</td>
+</tr>
+<tr>
+<td class="r data">240800200020</td>
+<td class="l data">C.A.M.,Bone</td>
+<td class="r data">240800200020</td>
+<td class="r data">$187.20</td>
+</tr>
+<tr>
+<td class="r data">240100100031</td>
+<td class="l data">Capsy Hood</td>
+<td class="r data">240100100031</td>
+<td class="r data">$3.70</td>
+</tr>
+<tr>
+<td class="r data">240200100056</td>
+<td class="l data">Carolina</td>
+<td class="r data">240200100056</td>
+<td class="r data">$41.20</td>
+</tr>
+<tr>
+<td class="r data">240200100057</td>
+<td class="l data">Carolina II</td>
+<td class="r data">240200100057</td>
+<td class="r data">$42.00</td>
+</tr>
+<tr>
+<td class="r data">220101000002</td>
+<td class="l data">Carribian Women's Jersey Shorts</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220101400088</td>
+<td class="l data">Casual Genuine Polo-Shirt</td>
+<td class="r data">220101400088</td>
+<td class="r data">$38.40</td>
+</tr>
+<tr>
+<td class="r data">220101400091</td>
+<td class="l data">Casual Genuine Tee</td>
+<td class="r data">220101400091</td>
+<td class="r data">$34.00</td>
+</tr>
+<tr>
+<td class="r data">220101400092</td>
+<td class="l data">Casual Logo Men's Sweatshirt</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220101400098</td>
+<td class="l data">Casual Sport Shorts</td>
+<td class="r data">220101400098</td>
+<td class="r data">$32.70</td>
+</tr>
+<tr>
+<td class="r data">220101400117</td>
+<td class="l data">Casual.st.polo Long-sleeved Polo-shirt</td>
+<td class="r data">220101400117</td>
+<td class="r data">$46.40</td>
+</tr>
+<tr>
+<td class="r data">240800200021</td>
+<td class="l data">Cayenne Red</td>
+<td class="r data">240800200021</td>
+<td class="r data">$97.80</td>
+</tr>
+<tr>
+<td class="r data">210200600067</td>
+<td class="l data">Children's Knit Sweater</td>
+<td class="r data">210200600067</td>
+<td class="r data">$67.00</td>
+</tr>
+<tr>
+<td class="r data">210200500002</td>
+<td class="l data">Children's Mitten</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240100400004</td>
+<td class="l data">Children's Roller Skates</td>
+<td class="r data">240100400004</td>
+<td class="r data">$102.40</td>
+</tr>
+<tr>
+<td class="r data">220200100002</td>
+<td class="l data">Cnv Plus Men's Off Court Tennis</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100500006</td>
+<td class="l data">Collapsible Water Can</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100700002</td>
+<td class="l data">Comfort Shelter</td>
+<td class="r data">230100700002</td>
+<td class="r data">$220.00</td>
+</tr>
+<tr>
+<td class="r data">230100200019</td>
+<td class="l data">Commanche Women's 6000 Q Backpack. Bark</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220101400130</td>
+<td class="l data">Comp. Women's Sleeveless Polo</td>
+<td class="r data">220101400130</td>
+<td class="r data">$16.90</td>
+</tr>
+<tr>
+<td class="r data">240100400005</td>
+<td class="l data">Cool Fit Men's Roller Skates</td>
+<td class="r data">240100400005</td>
+<td class="r data">$266.40</td>
+</tr>
+<tr>
+<td class="r data">240100400006</td>
+<td class="l data">Cool Fit Women's Roller Skates</td>
+<td class="r data">240100400006</td>
+<td class="r data">$238.20</td>
+</tr>
+<tr>
+<td class="r data">240800200037</td>
+<td class="l data">Coolman Pro 01 Neon Yellow</td>
+<td class="r data">240800200037</td>
+<td class="r data">$57.50</td>
+</tr>
+<tr>
+<td class="r data">240300200018</td>
+<td class="l data">Cougar Fleece Jacket with Zipper</td>
+<td class="r data">240300200018</td>
+<td class="r data">$91.50</td>
+</tr>
+<tr>
+<td class="r data">240300200058</td>
+<td class="l data">Cougar Windbreaker Vest</td>
+<td class="r data">240300200058</td>
+<td class="r data">$91.80</td>
+</tr>
+<tr>
+<td class="r data">230100500045</td>
+<td class="l data">Cup Picnic Mug 25 Cl.</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240100100232</td>
+<td class="l data">Dartsharpener Key ring</td>
+<td class="r data">240100100232</td>
+<td class="r data">$3.20</td>
+</tr>
+<tr>
+<td class="r data">230100200059</td>
+<td class="l data">Deer Backpack</td>
+<td class="r data">230100200059</td>
+<td class="r data">$39.10</td>
+</tr>
+<tr>
+<td class="r data">230100200066</td>
+<td class="l data">Deer Waist Bag</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220101400138</td>
+<td class="l data">Dima 2-Layer Men's Suit</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220100700002</td>
+<td class="l data">Dmx 10 Women's Aerobic Shoes</td>
+<td class="r data">220100700002</td>
+<td class="r data">$188.60</td>
+</tr>
+<tr>
+<td class="r data">230100500008</td>
+<td class="l data">Dome Tent Monodome Alu</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240200100073</td>
+<td class="l data">Donald Plush Headcover</td>
+<td class="r data">240200100073</td>
+<td class="r data">$22.30</td>
+</tr>
+<tr>
+<td class="r data">220100300008</td>
+<td class="l data">Dp Roller High-necked Knit</td>
+<td class="r data">220100300008</td>
+<td class="r data">$85.70</td>
+</tr>
+<tr>
+<td class="r data">220200200014</td>
+<td class="l data">Dubby Low Men's Street Shoes</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220100700027</td>
+<td class="l data">Duration Women's Trainer Aerobic Shoes</td>
+<td class="r data">220100700027</td>
+<td class="r data">$59.50</td>
+</tr>
+<tr>
+<td class="r data">230100100045</td>
+<td class="l data">Duwall Pants</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240200200026</td>
+<td class="l data">Eagle 5 Pocket Pants with Stretch</td>
+<td class="r data">240200200026</td>
+<td class="r data">$104.00</td>
+</tr>
+<tr>
+<td class="r data">240200200035</td>
+<td class="l data">Eagle Pants with Cross Pocket</td>
+<td class="r data">240200200035</td>
+<td class="r data">$98.90</td>
+</tr>
+<tr>
+<td class="r data">240200200039</td>
+<td class="l data">Eagle Plain Cap</td>
+<td class="r data">240200200039</td>
+<td class="r data">$24.10</td>
+</tr>
+<tr>
+<td class="r data">240200200044</td>
+<td class="l data">Eagle Polo-Shirt Interlock</td>
+<td class="r data">240200200044</td>
+<td class="r data">$48.90</td>
+</tr>
+<tr>
+<td class="r data">240200200060</td>
+<td class="l data">Eagle Windstopper Knit Neck</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240200200061</td>
+<td class="l data">Eagle Windstopper Sweat Neck</td>
+<td class="r data">240200200061</td>
+<td class="r data">$147.10</td>
+</tr>
+<tr>
+<td class="r data">240100100581</td>
+<td class="l data">Eliza T-Shirt</td>
+<td class="r data">240100100581</td>
+<td class="r data">$29.00</td>
+</tr>
+<tr>
+<td class="r data">220101400145</td>
+<td class="l data">Essence.baseball Cap</td>
+<td class="r data">220101400145</td>
+<td class="r data">$16.70</td>
+</tr>
+<tr>
+<td class="r data">220101400148</td>
+<td class="l data">Essence.cap Men's Bag</td>
+<td class="r data">220101400148</td>
+<td class="r data">$10.50</td>
+</tr>
+<tr>
+<td class="r data">220101400150</td>
+<td class="l data">Essential Suit 2 Swim Suit</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220101400152</td>
+<td class="l data">Essential Trunk 2 Swimming Trunks</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100600023</td>
+<td class="l data">Expedition 10,Small,Left,Blue Ribbon</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100600024</td>
+<td class="l data">Expedition 10,Small,Right,Blue Ribbon</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100600026</td>
+<td class="l data">Expedition 20,Large,Right,Forestgreen</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100600028</td>
+<td class="l data">Expedition 20,Medium,Right,Forestgreen</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100200022</td>
+<td class="l data">Expedition Camp Duffle Medium Backpack</td>
+<td class="r data">230100200022</td>
+<td class="r data">$122.00</td>
+</tr>
+<tr>
+<td class="r data">230100700004</td>
+<td class="l data">Expedition Dome 3</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100600015</td>
+<td class="l data">Expedition Zero,Medium,Left,Charcoal</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100600016</td>
+<td class="l data">Expedition Zero,Medium,Right,Charcoal</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100600017</td>
+<td class="l data">Expedition Zero,Small,Left,Charcoal</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100600018</td>
+<td class="l data">Expedition Zero,Small,Right,Charcoal</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100600022</td>
+<td class="l data">Expedition10,Medium,Right,Blue Ribbon</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240200100076</td>
+<td class="l data">Expert Men's Firesole Driver</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240200100081</td>
+<td class="l data">Extreme Distance 90 3-pack</td>
+<td class="r data">240200100081</td>
+<td class="r data">$8.30</td>
+</tr>
+<tr>
+<td class="r data">230100700008</td>
+<td class="l data">Family Holiday 4</td>
+<td class="r data">230100700008</td>
+<td class="r data">$519.30</td>
+</tr>
+<tr>
+<td class="r data">230100700009</td>
+<td class="l data">Family Holiday 6</td>
+<td class="r data">230100700009</td>
+<td class="r data">$568.10</td>
+</tr>
+<tr>
+<td class="r data">230100200025</td>
+<td class="l data">Feelgood 55-75 Litre Black Women's Backpack</td>
+<td class="r data">230100200025</td>
+<td class="r data">$275.90</td>
+</tr>
+<tr>
+<td class="r data">240700400017</td>
+<td class="l data">Fga Home Shorts</td>
+<td class="r data">240700400017</td>
+<td class="r data">$47.30</td>
+</tr>
+<tr>
+<td class="r data">220100100019</td>
+<td class="l data">Fit Racing Cap</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240300100020</td>
+<td class="l data">Fitness Dumbbell Foam 0.90</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">210200300006</td>
+<td class="l data">Fleece Cuff Pant Kid'S</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220100300001</td>
+<td class="l data">Fleece Jacket Compass</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240700100007</td>
+<td class="l data">Football - Helmet M</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240700100011</td>
+<td class="l data">Football - Helmet Pro XL</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240700100012</td>
+<td class="l data">Football - Helmet S</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240700100013</td>
+<td class="l data">Football - Helmet XL</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240700100017</td>
+<td class="l data">Football Super Bowl</td>
+<td class="r data">240700100017</td>
+<td class="r data">$26.60</td>
+</tr>
+<tr>
+<td class="r data">240500200073</td>
+<td class="l data">Force Classic Men's Jacket</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240500200081</td>
+<td class="l data">Force Micro Men's Suit</td>
+<td class="r data">240500200081</td>
+<td class="r data">$134.50</td>
+</tr>
+<tr>
+<td class="r data">240500200082</td>
+<td class="l data">Force Short Sprinter Men's Tights</td>
+<td class="r data">240500200082</td>
+<td class="r data">$39.20</td>
+</tr>
+<tr>
+<td class="r data">240500200083</td>
+<td class="l data">Force Technical Jacket w/Coolmax</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240100100605</td>
+<td class="l data">Fred T-Shirt</td>
+<td class="r data">240100100605</td>
+<td class="r data">$48.20</td>
+</tr>
+<tr>
+<td class="r data">240800100039</td>
+<td class="l data">Garbo Fleece Jacket</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100300006</td>
+<td class="l data">Gloves Le Fly Mitten</td>
+<td class="r data">230100300006</td>
+<td class="r data">$68.50</td>
+</tr>
+<tr>
+<td class="r data">240600100010</td>
+<td class="l data">Goggles, Assorted Colours</td>
+<td class="r data">240600100010</td>
+<td class="r data">$16.70</td>
+</tr>
+<tr>
+<td class="r data">240200200007</td>
+<td class="l data">Golf Polo(1/400)</td>
+<td class="r data">240200200007</td>
+<td class="r data">$84.20</td>
+</tr>
+<tr>
+<td class="r data">240200200011</td>
+<td class="l data">Golf Windstopper</td>
+<td class="r data">240200200011</td>
+<td class="r data">$135.70</td>
+</tr>
+<tr>
+<td class="r data">240100100610</td>
+<td class="l data">Goodtime Bag</td>
+<td class="r data">240100100610</td>
+<td class="r data">$65.20</td>
+</tr>
+<tr>
+<td class="r data">240100100615</td>
+<td class="l data">Goodtime Toilet Bag</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">210200600085</td>
+<td class="l data">Gordon Children's Tracking Pants</td>
+<td class="r data">210200600085</td>
+<td class="r data">$39.40</td>
+</tr>
+<tr>
+<td class="r data">240200100095</td>
+<td class="l data">Grandslam Staff Fs Copper Insert Putter</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240200100098</td>
+<td class="l data">Grandslam Staff Grip Llh Golf Gloves</td>
+<td class="r data">240200100098</td>
+<td class="r data">$14.60</td>
+</tr>
+<tr>
+<td class="r data">240200100101</td>
+<td class="l data">Grandslam Staff Tour Mhl Golf Gloves</td>
+<td class="r data">240200100101</td>
+<td class="r data">$19.50</td>
+</tr>
+<tr>
+<td class="r data">240400200057</td>
+<td class="l data">Grandslam Ultra Power Tennisketcher</td>
+<td class="r data">240400200057</td>
+<td class="r data">$145.80</td>
+</tr>
+<tr>
+<td class="r data">220100200004</td>
+<td class="l data">Green Lime Atletic Socks</td>
+<td class="r data">220100200004</td>
+<td class="r data">$6.50</td>
+</tr>
+<tr>
+<td class="r data">240100100065</td>
+<td class="l data">Grey</td>
+<td class="r data">240100100065</td>
+<td class="r data">$34.70</td>
+</tr>
+<tr>
+<td class="r data">240100100063</td>
+<td class="l data">Grey Met.</td>
+<td class="r data">240100100063</td>
+<td class="r data">$24.60</td>
+</tr>
+<tr>
+<td class="r data">230100200073</td>
+<td class="l data">Hammock Sports Bag</td>
+<td class="r data">230100200073</td>
+<td class="r data">$46.90</td>
+</tr>
+<tr>
+<td class="r data">220200300154</td>
+<td class="l data">Hardcore Junior/Women's Street Shoes Large</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220200300157</td>
+<td class="l data">Hardcore Men's Street Shoes Large</td>
+<td class="r data">220200300157</td>
+<td class="r data">$73.40</td>
+</tr>
+<tr>
+<td class="r data">240700200018</td>
+<td class="l data">Helmet L</td>
+<td class="r data">240700200018</td>
+<td class="r data">$18.80</td>
+</tr>
+<tr>
+<td class="r data">240700200019</td>
+<td class="l data">Helmet M</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240700200021</td>
+<td class="l data">Helmet XL</td>
+<td class="r data">240700200021</td>
+<td class="r data">$19.60</td>
+</tr>
+<tr>
+<td class="r data">240800100041</td>
+<td class="l data">Helmsdale Ski Jacket</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240800100042</td>
+<td class="l data">Helmsdale Ski Pants</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240200100116</td>
+<td class="l data">Hi-fly Intimidator Ti R80/10</td>
+<td class="r data">240200100116</td>
+<td class="r data">$219.50</td>
+</tr>
+<tr>
+<td class="r data">240200100118</td>
+<td class="l data">Hi-fly Intrepid Stand 8  Black</td>
+<td class="r data">240200100118</td>
+<td class="r data">$175.50</td>
+</tr>
+<tr>
+<td class="r data">240200200068</td>
+<td class="l data">Hi-fly Staff Rain Suit</td>
+<td class="r data">240200200068</td>
+<td class="r data">$313.80</td>
+</tr>
+<tr>
+<td class="r data">240200100124</td>
+<td class="l data">Hi-fly Staff Towel Blue/Black</td>
+<td class="r data">240200100124</td>
+<td class="r data">$24.50</td>
+</tr>
+<tr>
+<td class="r data">240200200071</td>
+<td class="l data">Hi-fly Strata Cap Offwhite/Green</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240200100131</td>
+<td class="l data">Hi-fly Tour Advance Flex Steel</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240100100305</td>
+<td class="l data">Hiclass Mundo 78a 36x72mm Pink-Swirl</td>
+<td class="r data">240100100305</td>
+<td class="r data">$8.90</td>
+</tr>
+<tr>
+<td class="r data">220200300079</td>
+<td class="l data">Hilly Women's Crosstrainer Shoes</td>
+<td class="r data">220200300079</td>
+<td class="r data">$64.90</td>
+</tr>
+<tr>
+<td class="r data">240100100312</td>
+<td class="l data">Hot Mini Backboard Bulls</td>
+<td class="r data">240100100312</td>
+<td class="r data">$18.10</td>
+</tr>
+<tr>
+<td class="r data">210200300007</td>
+<td class="l data">Hsc Dutch Player Shirt Junior</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100700011</td>
+<td class="l data">Hurricane 4</td>
+<td class="r data">230100700011</td>
+<td class="r data">$291.70</td>
+</tr>
+<tr>
+<td class="r data">240800200030</td>
+<td class="l data">Ii Pmt,Bone</td>
+<td class="r data">240800200030</td>
+<td class="r data">$49.50</td>
+</tr>
+<tr>
+<td class="r data">220200300082</td>
+<td class="l data">Indoor Handbold Special Shoes</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100500012</td>
+<td class="l data">Inflatable 3.5</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220100300019</td>
+<td class="l data">Instyle Pullover Mid w/Small Zipper</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220100300020</td>
+<td class="l data">Instyle T-Shirt</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220100100354</td>
+<td class="l data">Insu F.I.T Basic</td>
+<td class="r data">220100100354</td>
+<td class="r data">$17.00</td>
+</tr>
+<tr>
+<td class="r data">230100100006</td>
+<td class="l data">Jacket Nome</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100100013</td>
+<td class="l data">Jacket with Removable Fleece</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100200029</td>
+<td class="l data">Jaguar 50-75 Liter Blue Women's Backpack</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100500077</td>
+<td class="l data">Jl Legacy Curig I.A.Jacket</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100500080</td>
+<td class="l data">Jl Rainlight Essential Pants</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220101400373</td>
+<td class="l data">Jogging Pants  Men's Tracking Pants w/Small L</td>
+<td class="r data">220101400373</td>
+<td class="r data">$51.80</td>
+</tr>
+<tr>
+<td class="r data">220101400201</td>
+<td class="l data">Kaitum Women's Swim Suit</td>
+<td class="r data">220101400201</td>
+<td class="r data">$40.60</td>
+</tr>
+<tr>
+<td class="r data">210200900004</td>
+<td class="l data">Kid Basic Tracking Suit</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">210201000050</td>
+<td class="l data">Kid Children's T-Shirt</td>
+<td class="r data">210201000050</td>
+<td class="r data">$19.60</td>
+</tr>
+<tr>
+<td class="r data">210200400020</td>
+<td class="l data">Kids Baby Edge Max Shoes</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">210200100009</td>
+<td class="l data">Kids Sweat Round Neck,Large Logo</td>
+<td class="r data">210200100009</td>
+<td class="r data">$34.70</td>
+</tr>
+<tr>
+<td class="r data">230100500056</td>
+<td class="l data">Knife</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220100100025</td>
+<td class="l data">Knit Hat</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100500013</td>
+<td class="l data">Lamp with Battery Box</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240300100028</td>
+<td class="l data">Letour Heart Bike</td>
+<td class="r data">240300100028</td>
+<td class="r data">$533.20</td>
+</tr>
+<tr>
+<td class="r data">240300100032</td>
+<td class="l data">Letour Trimag Bike</td>
+<td class="r data">240300100032</td>
+<td class="r data">$630.40</td>
+</tr>
+<tr>
+<td class="r data">220200300005</td>
+<td class="l data">Liga Football Boot</td>
+<td class="r data">220200300005</td>
+<td class="r data">$115.00</td>
+</tr>
+<tr>
+<td class="r data">210201000067</td>
+<td class="l data">Logo Coord.Children's Sweatshirt</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220100300025</td>
+<td class="l data">Lucky Knitwear Wool Sweater</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100500081</td>
+<td class="l data">Lucky Tech Classic Rain Pants</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100500082</td>
+<td class="l data">Lucky Tech Intergal Wp/B Rain Pants</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100100051</td>
+<td class="l data">Lucky Voss Jacket</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220200200018</td>
+<td class="l data">Lulu Men's Street Shoes</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240100100646</td>
+<td class="l data">Lyon Men's Jacket</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240800200002</td>
+<td class="l data">Massif Bandit Ski Parcel Axial</td>
+<td class="r data">240800200002</td>
+<td class="r data">$178.88</td>
+</tr>
+<tr>
+<td class="r data">230100300010</td>
+<td class="l data">Massif Dual Gloves</td>
+<td class="r data">230100300010</td>
+<td class="r data">$49.40</td>
+</tr>
+<tr>
+<td class="r data">240200200013</td>
+<td class="l data">Master Golf Rain Suit</td>
+<td class="r data">240200200013</td>
+<td class="r data">$426.20</td>
+</tr>
+<tr>
+<td class="r data">230100500058</td>
+<td class="l data">Mattress with 5 channels 196x72</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240500200093</td>
+<td class="l data">Maxrun Running Tights</td>
+<td class="r data">240500200093</td>
+<td class="r data">$41.70</td>
+</tr>
+<tr>
+<td class="r data">230100500087</td>
+<td class="l data">Mayday Qd Zip Pants</td>
+<td class="r data">230100500087</td>
+<td class="r data">$97.50</td>
+</tr>
+<tr>
+<td class="r data">220100300037</td>
+<td class="l data">Mayday Resque Fleece Pullover</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100400025</td>
+<td class="l data">Mayday Serious Headband</td>
+<td class="r data">230100400025</td>
+<td class="r data">$17.00</td>
+</tr>
+<tr>
+<td class="r data">230100500091</td>
+<td class="l data">Mayday Soul Ht Jacket</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240800100074</td>
+<td class="l data">Mayday Soul Pro New Tech Ski Jacket</td>
+<td class="r data">240800100074</td>
+<td class="r data">$316.60</td>
+</tr>
+<tr>
+<td class="r data">230100500092</td>
+<td class="l data">Mayday Sports Pullover</td>
+<td class="r data">230100500092</td>
+<td class="r data">$117.80</td>
+</tr>
+<tr>
+<td class="r data">230100500093</td>
+<td class="l data">Mayday W'S Sports Pullover</td>
+<td class="r data">230100500093</td>
+<td class="r data">$132.80</td>
+</tr>
+<tr>
+<td class="r data">230100200043</td>
+<td class="l data">Medium Black/Bark Backpack</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100200047</td>
+<td class="l data">Medium Gold Black/Gold Backpack</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100200048</td>
+<td class="l data">Medium Olive Olive/Black Backpack</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240400200066</td>
+<td class="l data">Memhis 350,Yellow Medium, 6-pack tube</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220101400017</td>
+<td class="l data">Men's Cap</td>
+<td class="r data">220101400017</td>
+<td class="r data">$11.10</td>
+</tr>
+<tr>
+<td class="r data">230100100015</td>
+<td class="l data">Men's Jacket Caians</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100100017</td>
+<td class="l data">Men's Jacket Rem</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100100018</td>
+<td class="l data">Men's Jacket Sandy</td>
+<td class="r data">230100100018</td>
+<td class="r data">$159.10</td>
+</tr>
+<tr>
+<td class="r data">230100500094</td>
+<td class="l data">Men's Pants, Basic</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220200300015</td>
+<td class="l data">Men's Running Shoes Piedmmont</td>
+<td class="r data">220200300015</td>
+<td class="r data">$115.00</td>
+</tr>
+<tr>
+<td class="r data">220101400018</td>
+<td class="l data">Men's Running Tee Short Sleeves</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240500200003</td>
+<td class="l data">Men's Singlet</td>
+<td class="r data">240500200003</td>
+<td class="r data">$23.80</td>
+</tr>
+<tr>
+<td class="r data">230100500095</td>
+<td class="l data">Men's Sports Pullover</td>
+<td class="r data">230100500095</td>
+<td class="r data">$101.70</td>
+</tr>
+<tr>
+<td class="r data">240300300024</td>
+<td class="l data">Men's Summer Shorts</td>
+<td class="r data">240300300024</td>
+<td class="r data">$54.60</td>
+</tr>
+<tr>
+<td class="r data">240500100026</td>
+<td class="l data">Men's Sweat Pants without Rib, Small Logo</td>
+<td class="r data">240500100026</td>
+<td class="r data">$55.20</td>
+</tr>
+<tr>
+<td class="r data">240500100029</td>
+<td class="l data">Men's Sweatshirt w/Hood Big Logo</td>
+<td class="r data">240500100029</td>
+<td class="r data">$58.90</td>
+</tr>
+<tr>
+<td class="r data">220101300012</td>
+<td class="l data">Men's T-Shirt Small Logo</td>
+<td class="r data">220101300012</td>
+<td class="r data">$19.40</td>
+</tr>
+<tr>
+<td class="r data">240200100154</td>
+<td class="l data">Men's.m Men's Winter Gloves, Medium</td>
+<td class="r data">240200100154</td>
+<td class="r data">$26.60</td>
+</tr>
+<tr>
+<td class="r data">220100800040</td>
+<td class="l data">Mick's Men's Cl.Tracksuit</td>
+<td class="r data">220100800040</td>
+<td class="r data">$126.50</td>
+</tr>
+<tr>
+<td class="r data">240600100181</td>
+<td class="l data">Milan Swimming Trunks</td>
+<td class="r data">240600100181</td>
+<td class="r data">$37.40</td>
+</tr>
+<tr>
+<td class="r data">240100100354</td>
+<td class="l data">Mk Splinter 66 5m 88a Pea.</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220101400216</td>
+<td class="l data">Mm Daypouch Shoulder Bag</td>
+<td class="r data">220101400216</td>
+<td class="r data">$24.60</td>
+</tr>
+<tr>
+<td class="r data">220101400237</td>
+<td class="l data">Mns.jacket Jacket</td>
+<td class="r data">220101400237</td>
+<td class="r data">$102.90</td>
+</tr>
+<tr>
+<td class="r data">220101400238</td>
+<td class="l data">Mns.long Tights</td>
+<td class="r data">220101400238</td>
+<td class="r data">$56.90</td>
+</tr>
+<tr>
+<td class="r data">220200300096</td>
+<td class="l data">Mns.raptor Precision Sg Football</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100500016</td>
+<td class="l data">Money Purse, Black</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100100053</td>
+<td class="l data">Monster Men's Pants with Zipper</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100300013</td>
+<td class="l data">Montana Adult Gloves</td>
+<td class="r data">230100300013</td>
+<td class="r data">$25.00</td>
+</tr>
+<tr>
+<td class="r data">240100100654</td>
+<td class="l data">Montevideo Men's Shorts</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220101400385</td>
+<td class="l data">N.d.gear Basic T-Shirt</td>
+<td class="r data">220101400385</td>
+<td class="r data">$26.90</td>
+</tr>
+<tr>
+<td class="r data">220101400387</td>
+<td class="l data">N.d.gear Cap</td>
+<td class="r data">220101400387</td>
+<td class="r data">$12.60</td>
+</tr>
+<tr>
+<td class="r data">240100400037</td>
+<td class="l data">N.d.gear Roller Skates Ff80 80 millimetre78a</td>
+<td class="r data">240100400037</td>
+<td class="r data">$231.00</td>
+</tr>
+<tr>
+<td class="r data">240200100157</td>
+<td class="l data">Normal Standard</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240100100365</td>
+<td class="l data">Northern Coach</td>
+<td class="r data">240100100365</td>
+<td class="r data">$191.60</td>
+</tr>
+<tr>
+<td class="r data">220100100371</td>
+<td class="l data">Northern Fleece Scarf</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240100100366</td>
+<td class="l data">Northern Liquid Belt with Bottle</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240700400020</td>
+<td class="l data">Norwood Player Shirt</td>
+<td class="r data">240700400020</td>
+<td class="r data">$79.30</td>
+</tr>
+<tr>
+<td class="r data">210200600112</td>
+<td class="l data">O'my Children's T-Shirt with Logo</td>
+<td class="r data">210200600112</td>
+<td class="r data">$21.80</td>
+</tr>
+<tr>
+<td class="r data">240500200100</td>
+<td class="l data">Original Running Pants</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220100900006</td>
+<td class="l data">Osprey Cabri Micro Suit</td>
+<td class="r data">220100900006</td>
+<td class="r data">$88.40</td>
+</tr>
+<tr>
+<td class="r data">210200900033</td>
+<td class="l data">Osprey France Nylon Shorts</td>
+<td class="r data">210200900033</td>
+<td class="r data">$14.20</td>
+</tr>
+<tr>
+<td class="r data">210200900038</td>
+<td class="l data">Osprey Girl's Tights</td>
+<td class="r data">210200900038</td>
+<td class="r data">$20.30</td>
+</tr>
+<tr>
+<td class="r data">220100900029</td>
+<td class="l data">Osprey Men's King T-Shirt w/Small Logo</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220100900035</td>
+<td class="l data">Osprey Shadow Indoor</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220101400265</td>
+<td class="l data">Ottis Pes Men's Pants</td>
+<td class="r data">220101400265</td>
+<td class="r data">$37.10</td>
+</tr>
+<tr>
+<td class="r data">230100600030</td>
+<td class="l data">Outback Sleeping Bag, Large,Left,Blue/Black</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100600031</td>
+<td class="l data">Outback Sleeping Bag, Large,Right, Blue/Black</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100500066</td>
+<td class="l data">Outback Spirits Kitchen</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220101400269</td>
+<td class="l data">Outfit Women's Shirt</td>
+<td class="r data">220101400269</td>
+<td class="r data">$67.00</td>
+</tr>
+<tr>
+<td class="r data">240100200014</td>
+<td class="l data">Pacific 95% 23 Gram</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240500100004</td>
+<td class="l data">Pants N</td>
+<td class="r data">240500100004</td>
+<td class="r data">$63.50</td>
+</tr>
+<tr>
+<td class="r data">220100800009</td>
+<td class="l data">Peacock Pants</td>
+<td class="r data">220100800009</td>
+<td class="r data">$52.50</td>
+</tr>
+<tr>
+<td class="r data">240100400043</td>
+<td class="l data">Perfect Fit Men's  Roller Skates</td>
+<td class="r data">240100400043</td>
+<td class="r data">$282.00</td>
+</tr>
+<tr>
+<td class="r data">240100400044</td>
+<td class="l data">Perfect Fit Men's Roller Skates</td>
+<td class="r data">240100400044</td>
+<td class="r data">$393.90</td>
+</tr>
+<tr>
+<td class="r data">240100400046</td>
+<td class="l data">Perfect Fit Men's Stunt Skates</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240100400049</td>
+<td class="l data">Perfect Fit Women's Roller Skates Custom</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240600100185</td>
+<td class="l data">Pew Swimming Trunks</td>
+<td class="r data">240600100185</td>
+<td class="r data">$35.10</td>
+</tr>
+<tr>
+<td class="r data">220101400276</td>
+<td class="l data">Pine Sweat with Hood</td>
+<td class="r data">220101400276</td>
+<td class="r data">$68.40</td>
+</tr>
+<tr>
+<td class="r data">230100500068</td>
+<td class="l data">Plate Picnic Deep</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100500020</td>
+<td class="l data">Pocket Light with Crypton Bulb</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100600035</td>
+<td class="l data">Polar Bear Sleeping mat, Olive Green</td>
+<td class="r data">230100600035</td>
+<td class="r data">$33.20</td>
+</tr>
+<tr>
+<td class="r data">240500200101</td>
+<td class="l data">Polar Jacket</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240100100665</td>
+<td class="l data">Pool Shorts</td>
+<td class="r data">240100100665</td>
+<td class="r data">$41.50</td>
+</tr>
+<tr>
+<td class="r data">220100700042</td>
+<td class="l data">Power Women's Dmx Wide, Walking Shoes</td>
+<td class="r data">220100700042</td>
+<td class="r data">$90.60</td>
+</tr>
+<tr>
+<td class="r data">240200100164</td>
+<td class="l data">Precision Jack 309 Lh Balata</td>
+<td class="r data">240200100164</td>
+<td class="r data">$56.10</td>
+</tr>
+<tr>
+<td class="r data">220200200022</td>
+<td class="l data">Pro Fit Gel Ds Trainer Women's Running Shoes</td>
+<td class="r data">220200200022</td>
+<td class="r data">$57.30</td>
+</tr>
+<tr>
+<td class="r data">220200200024</td>
+<td class="l data">Pro Fit Gel Gt 2030 Women's Running Shoes</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240100400058</td>
+<td class="l data">Pro-roll Hot Rod Roller Skates</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240100400062</td>
+<td class="l data">Pro-roll Lazer Roller Skates</td>
+<td class="r data">240100400062</td>
+<td class="r data">$113.20</td>
+</tr>
+<tr>
+<td class="r data">240100400069</td>
+<td class="l data">Pro-roll Panga Roller Skates</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240100400070</td>
+<td class="l data">Pro-roll Sabotage-Rp  Roller Skates</td>
+<td class="r data">240100400070</td>
+<td class="r data">$175.90</td>
+</tr>
+<tr>
+<td class="r data">240100400076</td>
+<td class="l data">Pro-roll Sq9 80-76mm/78a Roller Skates</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100500023</td>
+<td class="l data">Proofing Spray</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240200100173</td>
+<td class="l data">Proplay Executive Bi-Metal Graphite</td>
+<td class="r data">240200100173</td>
+<td class="r data">$484.30</td>
+</tr>
+<tr>
+<td class="r data">240200100180</td>
+<td class="l data">Proplay Men's Tour Force Lp 7-Wood</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240200100181</td>
+<td class="l data">Proplay Men's Tour Force Lp Driver</td>
+<td class="r data">240200100181</td>
+<td class="r data">$109.30</td>
+</tr>
+<tr>
+<td class="r data">240200100183</td>
+<td class="l data">Proplay Men's Tour Force Ti 5w</td>
+<td class="r data">240200100183</td>
+<td class="r data">$95.70</td>
+</tr>
+<tr>
+<td class="r data">240200100207</td>
+<td class="l data">Proplay Stand Black</td>
+<td class="r data">240200100207</td>
+<td class="r data">$107.90</td>
+</tr>
+<tr>
+<td class="r data">240200100211</td>
+<td class="l data">Proplay Women's Tour Force 7w</td>
+<td class="r data">240200100211</td>
+<td class="r data">$121.00</td>
+</tr>
+<tr>
+<td class="r data">240100400080</td>
+<td class="l data">Proskater Kitalpha Gamma Roller Skates</td>
+<td class="r data">240100400080</td>
+<td class="r data">$222.00</td>
+</tr>
+<tr>
+<td class="r data">240100400083</td>
+<td class="l data">Proskater Viablade S Roller Skates</td>
+<td class="r data">240100400083</td>
+<td class="r data">$109.50</td>
+</tr>
+<tr>
+<td class="r data">240100100403</td>
+<td class="l data">Proskater Viablade Tx Women's Fitness</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240100400085</td>
+<td class="l data">Proskater W-500 Jr.Roller Skates</td>
+<td class="r data">240100400085</td>
+<td class="r data">$64.50</td>
+</tr>
+<tr>
+<td class="r data">240100100410</td>
+<td class="l data">Prosoccer  Club Football 4/32 (Replica) Synth</td>
+<td class="r data">240100100410</td>
+<td class="r data">$22.70</td>
+</tr>
+<tr>
+<td class="r data">240700400024</td>
+<td class="l data">Prosoccer Away Shirt</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220200300002</td>
+<td class="l data">Pytossage Bathing Sandal</td>
+<td class="r data">220200300002</td>
+<td class="r data">$38.50</td>
+</tr>
+<tr>
+<td class="r data">220101400285</td>
+<td class="l data">Quali Jacket with Hood</td>
+<td class="r data">220101400285</td>
+<td class="r data">$59.40</td>
+</tr>
+<tr>
+<td class="r data">220101400289</td>
+<td class="l data">Quali Sweatpant</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220101400290</td>
+<td class="l data">Quali Sweatshirt</td>
+<td class="r data">220101400290</td>
+<td class="r data">$74.80</td>
+</tr>
+<tr>
+<td class="r data">230100500096</td>
+<td class="l data">Rain Jacket</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">210200500006</td>
+<td class="l data">Rain Suit, Plain w/backpack Jacket</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240700400003</td>
+<td class="l data">Red Cap</td>
+<td class="r data">240700400003</td>
+<td class="r data">$12.40</td>
+</tr>
+<tr>
+<td class="r data">240700400004</td>
+<td class="l data">Red Scarf</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240200100020</td>
+<td class="l data">Red/White/Black Staff 9 Bag</td>
+<td class="r data">240200100020</td>
+<td class="r data">$197.10</td>
+</tr>
+<tr>
+<td class="r data">240800200034</td>
+<td class="l data">Regulator,Stopsign</td>
+<td class="r data">240800200034</td>
+<td class="r data">$78.50</td>
+</tr>
+<tr>
+<td class="r data">240200200080</td>
+<td class="l data">Release Golf Sweatshirt w/Logo(1/100)</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240100100672</td>
+<td class="l data">Ribstop Jacket</td>
+<td class="r data">240100100672</td>
+<td class="r data">$197.90</td>
+</tr>
+<tr>
+<td class="r data">240100400098</td>
+<td class="l data">Rollerskate  Roller Skates Ex9 76mm/78a Biofl</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240100400095</td>
+<td class="l data">Rollerskate Roller Skates Control Xi Adult</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240100400100</td>
+<td class="l data">Rollerskate Roller Skates Gretzky Mvp S.B.S</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240100400112</td>
+<td class="l data">Rollerskate Roller Skates Panga 72mm/78a</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240100400125</td>
+<td class="l data">Rollerskate Roller Skates Sq5 76mm/78a</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240100400128</td>
+<td class="l data">Rollerskate Roller Skates Sq7-Ls 76mm/78a</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240100400129</td>
+<td class="l data">Rollerskate Roller Skates Sq9 80-76mm/78a</td>
+<td class="r data">240100400129</td>
+<td class="r data">$237.40</td>
+</tr>
+<tr>
+<td class="r data">240100400136</td>
+<td class="l data">Rollerskate Roller Skates Xpander</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240200100221</td>
+<td class="l data">Rosefinch Cart 8 1/2  Black</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240100100676</td>
+<td class="l data">Roth T-Shirt</td>
+<td class="r data">240100100676</td>
+<td class="r data">$43.40</td>
+</tr>
+<tr>
+<td class="r data">240200100225</td>
+<td class="l data">Rubby Men's Golf Shoes w/Goretex</td>
+<td class="r data">240200100225</td>
+<td class="r data">$153.10</td>
+</tr>
+<tr>
+<td class="r data">240200100226</td>
+<td class="l data">Rubby Men's Golf Shoes w/Goretex Plain Toe</td>
+<td class="r data">240200100226</td>
+<td class="r data">$183.90</td>
+</tr>
+<tr>
+<td class="r data">240200100227</td>
+<td class="l data">Rubby Women's Golf Shoes w/Gore-Tex</td>
+<td class="r data">240200100227</td>
+<td class="r data">$161.90</td>
+</tr>
+<tr>
+<td class="r data">240500200007</td>
+<td class="l data">Running Gloves</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240100100679</td>
+<td class="l data">Saturn Big Bag</td>
+<td class="r data">240100100679</td>
+<td class="r data">$45.80</td>
+</tr>
+<tr>
+<td class="r data">230100300023</td>
+<td class="l data">Scania Unisex Gloves</td>
+<td class="r data">230100300023</td>
+<td class="r data">$36.00</td>
+</tr>
+<tr>
+<td class="r data">240200100230</td>
+<td class="l data">Score Counter Scoreboard De Luxe</td>
+<td class="r data">240200100230</td>
+<td class="r data">$14.70</td>
+</tr>
+<tr>
+<td class="r data">240600100080</td>
+<td class="l data">Sharky Swimming Trunks</td>
+<td class="r data">240600100080</td>
+<td class="r data">$30.40</td>
+</tr>
+<tr>
+<td class="r data">230100600003</td>
+<td class="l data">Sheet Sleeping Bag, Red</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220101400306</td>
+<td class="l data">Sherpa Pes Shiny Cotton</td>
+<td class="r data">220101400306</td>
+<td class="r data">$74.00</td>
+</tr>
+<tr>
+<td class="r data">240800200035</td>
+<td class="l data">Shine Black PRO</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240100100690</td>
+<td class="l data">Shirt Termir</td>
+<td class="r data">240100100690</td>
+<td class="r data">$201.50</td>
+</tr>
+<tr>
+<td class="r data">240100100433</td>
+<td class="l data">Shoelace White 150 Cm</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240100100434</td>
+<td class="l data">Shoeshine Black</td>
+<td class="r data">240100100434</td>
+<td class="r data">$16.40</td>
+</tr>
+<tr>
+<td class="r data">220101400310</td>
+<td class="l data">Short Women's Tights</td>
+<td class="r data">220101400310</td>
+<td class="r data">$32.10</td>
+</tr>
+<tr>
+<td class="r data">230100500072</td>
+<td class="l data">Single Full Box Madras honeycomb-weave</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100200074</td>
+<td class="l data">Sioux Men's Backpack 26 Litre.</td>
+<td class="r data">230100200074</td>
+<td class="r data">$54.10</td>
+</tr>
+<tr>
+<td class="r data">240400200012</td>
+<td class="l data">Sledgehammer 120 Ph Black</td>
+<td class="r data">240400200012</td>
+<td class="r data">$175.70</td>
+</tr>
+<tr>
+<td class="r data">230100500024</td>
+<td class="l data">Small Belt Bag, Black</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240400300033</td>
+<td class="l data">Smasher Polo-Shirt w/V-Neck</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240400200091</td>
+<td class="l data">Smasher Rd Ti 70 Tennis Racket</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240400300035</td>
+<td class="l data">Smasher Shorts</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240400200093</td>
+<td class="l data">Smasher Super Rq Ti 350 Tennis Racket</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240400200094</td>
+<td class="l data">Smasher Super Rq Ti 700 Long Tennis</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240400200097</td>
+<td class="l data">Smasher Tg 70 Tennis String Roll</td>
+<td class="r data">240400200097</td>
+<td class="r data">$416.80</td>
+</tr>
+<tr>
+<td class="r data">240400300039</td>
+<td class="l data">Smasher Tights</td>
+<td class="r data">240400300039</td>
+<td class="r data">$19.60</td>
+</tr>
+<tr>
+<td class="r data">240700400031</td>
+<td class="l data">Soccer Fan Football Player Shirt</td>
+<td class="r data">240700400031</td>
+<td class="r data">$63.00</td>
+</tr>
+<tr>
+<td class="r data">220101400032</td>
+<td class="l data">Socks Wmns'Fitness</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220200200035</td>
+<td class="l data">Soft Alta Plus Women's Indoor Shoes</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220200200036</td>
+<td class="l data">Soft Astro Men's Running Shoes</td>
+<td class="r data">220200200036</td>
+<td class="r data">$60.20</td>
+</tr>
+<tr>
+<td class="r data">210201000198</td>
+<td class="l data">South Peak Junior Training Shoes</td>
+<td class="r data">210201000198</td>
+<td class="r data">$60.10</td>
+</tr>
+<tr>
+<td class="r data">220200300116</td>
+<td class="l data">South Peak Men's Running Shoes</td>
+<td class="r data">220200300116</td>
+<td class="r data">$84.20</td>
+</tr>
+<tr>
+<td class="r data">240100100463</td>
+<td class="l data">Sparkle Spray Orange</td>
+<td class="r data">240100100463</td>
+<td class="r data">$14.70</td>
+</tr>
+<tr>
+<td class="r data">220100100044</td>
+<td class="l data">Sports glasses Satin Alumin.</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">210201000199</td>
+<td class="l data">Starlite Baby Shoes</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220101400328</td>
+<td class="l data">Stars Swim Suit</td>
+<td class="r data">220101400328</td>
+<td class="r data">$19.00</td>
+</tr>
+<tr>
+<td class="r data">240700400002</td>
+<td class="l data">Stephens Shirt</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240100100477</td>
+<td class="l data">Stout Brass 18 Gram</td>
+<td class="r data">240100100477</td>
+<td class="r data">$8.50</td>
+</tr>
+<tr>
+<td class="r data">240500200121</td>
+<td class="l data">Stout Running Shorts</td>
+<td class="r data">240500200121</td>
+<td class="r data">$27.80</td>
+</tr>
+<tr>
+<td class="r data">240500200122</td>
+<td class="l data">Stout Running Shorts Micro</td>
+<td class="r data">240500200122</td>
+<td class="r data">$24.10</td>
+</tr>
+<tr>
+<td class="r data">210200700016</td>
+<td class="l data">Strap Pants BBO</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240100100703</td>
+<td class="l data">Stream Sweatshirt with Tube</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240600100102</td>
+<td class="l data">Sunfit Luffa Bikini</td>
+<td class="r data">240600100102</td>
+<td class="r data">$46.10</td>
+</tr>
+<tr>
+<td class="r data">210200200022</td>
+<td class="l data">Sunfit Slow Swimming Trunks</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">210200200023</td>
+<td class="l data">Sunfit Stockton Swimming Trunks Jr.</td>
+<td class="r data">210200200023</td>
+<td class="r data">$19.80</td>
+</tr>
+<tr>
+<td class="r data">210200100017</td>
+<td class="l data">Sweatshirt Children's O-Neck</td>
+<td class="r data">210200100017</td>
+<td class="r data">$40.00</td>
+</tr>
+<tr>
+<td class="r data">240500100039</td>
+<td class="l data">Sweatshirt Women's Sweatshirt with O-Neck</td>
+<td class="r data">240500100039</td>
+<td class="r data">$34.50</td>
+</tr>
+<tr>
+<td class="r data">240600100016</td>
+<td class="l data">Swim Suit Fabulo</td>
+<td class="r data">240600100016</td>
+<td class="r data">$55.80</td>
+</tr>
+<tr>
+<td class="r data">240600100017</td>
+<td class="l data">Swim Suit Laurel</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220101400047</td>
+<td class="l data">Swimming Trunks Struc</td>
+<td class="r data">220101400047</td>
+<td class="r data">$24.20</td>
+</tr>
+<tr>
+<td class="r data">240500200016</td>
+<td class="l data">T-Shirt</td>
+<td class="r data">240500200016</td>
+<td class="r data">$31.70</td>
+</tr>
+<tr>
+<td class="r data">220101300001</td>
+<td class="l data">T-Shirt, Short-sleeved, Big Logo</td>
+<td class="r data">220101300001</td>
+<td class="r data">$33.60</td>
+</tr>
+<tr>
+<td class="r data">220100700046</td>
+<td class="l data">Tcp 6 Men's Running Shoes</td>
+<td class="r data">220100700046</td>
+<td class="r data">$154.40</td>
+</tr>
+<tr>
+<td class="r data">240200100021</td>
+<td class="l data">Tee Holder</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240200100232</td>
+<td class="l data">Tee18 Ascot Chipper</td>
+<td class="r data">240200100232</td>
+<td class="r data">$28.60</td>
+</tr>
+<tr>
+<td class="r data">240200100233</td>
+<td class="l data">Tee18 Troon 7  Black</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">210200500016</td>
+<td class="l data">Teen Profleece w/Zipper</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240200200015</td>
+<td class="l data">Tek Cap</td>
+<td class="r data">240200200015</td>
+<td class="r data">$27.90</td>
+</tr>
+<tr>
+<td class="r data">230100500074</td>
+<td class="l data">Tent Milano Tent,4 Persons, about 4.8</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100600036</td>
+<td class="l data">Tent Summer 195 Twin Sleeping Bag</td>
+<td class="r data">230100600036</td>
+<td class="r data">$103.20</td>
+</tr>
+<tr>
+<td class="r data">220101400339</td>
+<td class="l data">Tims Shorts</td>
+<td class="r data">220101400339</td>
+<td class="r data">$32.30</td>
+</tr>
+<tr>
+<td class="r data">230100600038</td>
+<td class="l data">Tipee Summer Sleeping Bag</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100600039</td>
+<td class="l data">Tipee Twin Blue/Orange</td>
+<td class="r data">230100600039</td>
+<td class="r data">$127.10</td>
+</tr>
+<tr>
+<td class="r data">210201000126</td>
+<td class="l data">Toddler Footwear Socks with Knobs</td>
+<td class="r data">210201000126</td>
+<td class="r data">$6.50</td>
+</tr>
+<tr>
+<td class="r data">220101300017</td>
+<td class="l data">Toncot Beefy-T Emb T-Shirt</td>
+<td class="r data">220101300017</td>
+<td class="r data">$16.60</td>
+</tr>
+<tr>
+<td class="r data">210200400070</td>
+<td class="l data">Tony's Children's Deschutz (Bg) Shoes</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">210200300052</td>
+<td class="l data">Tony's Cut &amp; Sew T-Shirt</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240200200081</td>
+<td class="l data">Top (1/100)</td>
+<td class="r data">240200200081</td>
+<td class="r data">$107.30</td>
+</tr>
+<tr>
+<td class="r data">240100100508</td>
+<td class="l data">Top Elite Kit Small</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240800200062</td>
+<td class="l data">Top Equipe 07 Green</td>
+<td class="r data">240800200062</td>
+<td class="r data">$36.80</td>
+</tr>
+<tr>
+<td class="r data">240800200063</td>
+<td class="l data">Top Equipe 99 Black</td>
+<td class="r data">240800200063</td>
+<td class="r data">$43.40</td>
+</tr>
+<tr>
+<td class="r data">240300300065</td>
+<td class="l data">Top Men's Goretex Ski Pants</td>
+<td class="r data">240300300065</td>
+<td class="r data">$321.50</td>
+</tr>
+<tr>
+<td class="r data">240300300070</td>
+<td class="l data">Top Men's R&amp;D Ultimate Jacket</td>
+<td class="r data">240300300070</td>
+<td class="r data">$509.80</td>
+</tr>
+<tr>
+<td class="r data">240300300071</td>
+<td class="l data">Top Men's Retro T-Neck</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240300300090</td>
+<td class="l data">Top R&amp;D Long Jacket</td>
+<td class="r data">240300300090</td>
+<td class="r data">$536.30</td>
+</tr>
+<tr>
+<td class="r data">240500200130</td>
+<td class="l data">Topline Delphi Race Shorts</td>
+<td class="r data">240500200130</td>
+<td class="r data">$28.00</td>
+</tr>
+<tr>
+<td class="r data">230100100062</td>
+<td class="l data">Topper Pants</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220200300129</td>
+<td class="l data">Torino Men's Leather Adventure Shoes</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220100100410</td>
+<td class="l data">Toto Tube Socks</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220101400349</td>
+<td class="l data">Tracker Fitness Stockings</td>
+<td class="r data">220101400349</td>
+<td class="r data">$11.90</td>
+</tr>
+<tr>
+<td class="r data">230100200054</td>
+<td class="l data">Trekker 65 Royal Men's Backpack</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100500026</td>
+<td class="l data">Trekking Tent</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240500100041</td>
+<td class="l data">Triffy Jacket</td>
+<td class="r data">240500100041</td>
+<td class="r data">$129.10</td>
+</tr>
+<tr>
+<td class="r data">240500100043</td>
+<td class="l data">Triffy Logo T-Shirt with V-Neck</td>
+<td class="r data">240500100043</td>
+<td class="r data">$26.20</td>
+</tr>
+<tr>
+<td class="r data">220100100421</td>
+<td class="l data">Trois-fit Running Qtr Socks (Non-Cush)</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220100700052</td>
+<td class="l data">Trooper Ii Dmx-2x Men's Walking Shoes</td>
+<td class="r data">220100700052</td>
+<td class="r data">$121.60</td>
+</tr>
+<tr>
+<td class="r data">220100300042</td>
+<td class="l data">Truls Polar Fleece Cardigan</td>
+<td class="r data">220100300042</td>
+<td class="r data">$208.60</td>
+</tr>
+<tr>
+<td class="r data">240100400142</td>
+<td class="l data">Twain Ac7/Ft7 Men's Roller Skates</td>
+<td class="r data">240100400142</td>
+<td class="r data">$181.30</td>
+</tr>
+<tr>
+<td class="r data">240100400143</td>
+<td class="l data">Twain Ac7/Ft7 Women's Roller Skates</td>
+<td class="r data">240100400143</td>
+<td class="r data">$166.60</td>
+</tr>
+<tr>
+<td class="r data">220200200071</td>
+<td class="l data">Twain Men's Exit Low 2000 Street Shoes</td>
+<td class="r data">220200200071</td>
+<td class="r data">$108.20</td>
+</tr>
+<tr>
+<td class="r data">220200200073</td>
+<td class="l data">Twain Stf6 Gtx M Men's Trekking Boot</td>
+<td class="r data">220200200073</td>
+<td class="r data">$145.90</td>
+</tr>
+<tr>
+<td class="r data">240100400147</td>
+<td class="l data">Twain Tr7 Men's Roller Skates</td>
+<td class="r data">240100400147</td>
+<td class="r data">$265.90</td>
+</tr>
+<tr>
+<td class="r data">220200200077</td>
+<td class="l data">Twain Women's Exit Iii Mid Cd X-Hiking Shoes</td>
+<td class="r data">220200200077</td>
+<td class="r data">$138.80</td>
+</tr>
+<tr>
+<td class="r data">220200200079</td>
+<td class="l data">Twain Women's Expresso X-Hiking Shoes</td>
+<td class="r data">220200200079</td>
+<td class="r data">$142.90</td>
+</tr>
+<tr>
+<td class="r data">240800200008</td>
+<td class="l data">Twain X-Scream 7.9 Ski,Sq 750 Dri</td>
+<td class="r data">240800200008</td>
+<td class="r data">$170.50</td>
+</tr>
+<tr>
+<td class="r data">230100100063</td>
+<td class="l data">Tx Peak Parka</td>
+<td class="r data">230100100063</td>
+<td class="r data">$387.70</td>
+</tr>
+<tr>
+<td class="r data">220100800071</td>
+<td class="l data">Tx Tribe Tank Top</td>
+<td class="r data">220100800071</td>
+<td class="r data">$33.70</td>
+</tr>
+<tr>
+<td class="r data">240100100714</td>
+<td class="l data">Tybor Sweatshirt with Hood</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220101200020</td>
+<td class="l data">Tyfoon Flex Shorts</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220101200025</td>
+<td class="l data">Tyfoon Ketch T-Shirt</td>
+<td class="r data">220101200025</td>
+<td class="r data">$26.90</td>
+</tr>
+<tr>
+<td class="r data">220101200029</td>
+<td class="l data">Tyfoon Oliver Sweatshirt</td>
+<td class="r data">220101200029</td>
+<td class="r data">$54.80</td>
+</tr>
+<tr>
+<td class="r data">230100500101</td>
+<td class="l data">Ultra Ht Lightning Set</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220100400022</td>
+<td class="l data">Ultra M803 Ng Men's Street Shoes</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220100400023</td>
+<td class="l data">Ultra W802 All Terrain Women's Shoes</td>
+<td class="r data">220100400023</td>
+<td class="r data">$93.60</td>
+</tr>
+<tr>
+<td class="r data">240100100535</td>
+<td class="l data">Victor 76 76mm Optics Blue</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100200056</td>
+<td class="l data">Victor Grey/Olive Women's Backpack</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240300100046</td>
+<td class="l data">Weight  5.0 Kg</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240100400151</td>
+<td class="l data">Weston F4 Men's Hockey Skates</td>
+<td class="r data">240100400151</td>
+<td class="r data">$419.00</td>
+</tr>
+<tr>
+<td class="r data">240200100246</td>
+<td class="l data">White 90,Top.Flite Strata Tour 3-pack</td>
+<td class="r data">240200100246</td>
+<td class="r data">$16.20</td>
+</tr>
+<tr>
+<td class="r data">240200200091</td>
+<td class="l data">Wind Proof Windstopper Merino/Acryl</td>
+<td class="r data">240200200091</td>
+<td class="r data">$181.30</td>
+</tr>
+<tr>
+<td class="r data">240500100057</td>
+<td class="l data">Woman Sweat with Round Neck, Big Logo</td>
+<td class="r data">240500100057</td>
+<td class="r data">$38.40</td>
+</tr>
+<tr>
+<td class="r data">220200100171</td>
+<td class="l data">Woman's Air Amend Mid</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220200100179</td>
+<td class="l data">Woman's Air Converge Triax X</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220200100190</td>
+<td class="l data">Woman's Air Imara</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220200100202</td>
+<td class="l data">Woman's Air Rasp Suede</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220200100226</td>
+<td class="l data">Woman's Air Zoom Drive</td>
+<td class="r data">220200100226</td>
+<td class="r data">$133.20</td>
+</tr>
+<tr>
+<td class="r data">220200100229</td>
+<td class="l data">Woman's Air Zoom Sterling</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220100100513</td>
+<td class="l data">Woman's Deception Dress</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220100100516</td>
+<td class="l data">Woman's Dri Fit Airborne Top</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220100100523</td>
+<td class="l data">Woman's Dri-Fit Scoop Neck Bra</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220100100530</td>
+<td class="l data">Woman's Emblished Work-Out Pants</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220100100536</td>
+<td class="l data">Woman's Foxhole Jacket</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220100100568</td>
+<td class="l data">Woman's Micro Fibre Anorak</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220100100581</td>
+<td class="l data">Woman's Out &amp; Sew Airborn Top</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220100100592</td>
+<td class="l data">Woman's Short Tights</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220100100553</td>
+<td class="l data">Woman's Short Top Dri Fit</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220100100609</td>
+<td class="l data">Woman's Sweatshirt w/Hood</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220100100617</td>
+<td class="l data">Woman's T-Shirt w/Hood</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220100100629</td>
+<td class="l data">Woman's Winter Tights</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220100100631</td>
+<td class="l data">Woman's Work Out Pants Dri Fit</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">220100100635</td>
+<td class="l data">Woman's Woven Warm Up</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">230100100025</td>
+<td class="l data">Women's Shorts</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240100100148</td>
+<td class="l data">Wood Box for 6 Balls</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240300100049</td>
+<td class="l data">Wrist Weight  2.25 Kg</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240300100048</td>
+<td class="l data">Wrist Weight 1.10 Kg</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240100100734</td>
+<td class="l data">Wyoming Men's Socks</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">240100100737</td>
+<td class="l data">Wyoming Men's T-Shirt with V-Neck</td>
+<td class="r data">240100100737</td>
+<td class="r data">$47.90</td>
+</tr>
+<tr>
+<td class="r data">230100200006</td>
+<td class="l data">X-Large Bottlegreen/Black</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<td class="r data">210201100004</td>
+<td class="l data">Ypsilon Children's Sweat w/Big Logo</td>
+<td class="r data">210201100004</td>
+<td class="r data">$49.20</td>
+</tr>
+<tr>
+<td class="r data">240500100062</td>
+<td class="l data">Ypsilon Men's Sweatshirt w/Piping</td>
+<td class="r data">240500100062</td>
+<td class="r data">$55.10</td>
+</tr>
+<tr>
+<td class="r data">220100800096</td>
+<td class="l data">Zx Women's Dance Pants</td>
+<td class="r data">220100800096</td>
+<td class="r data">$74.10</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br></p><hr size="3">
+<a name="IDX7"></a>
+<table class="systitleandfootercontainer" rules="none" frame="void" summary="Page Layout" border="0" cellpadding="1" cellspacing="1" width="100%">
+<tbody><tr>
+<td class="c systemtitle"> Customers who placed  orders during both quater1 and quater2 of 2007</td>
+</tr>
+</tbody></table><br>
+<div>
+<div align="center">
+<table class="table" rules="all" frame="box" summary="Procedure SQL: Query Results" bordercolor="#C1C1C1" cellpadding="5" cellspacing="0">
+<colgroup>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r b header" scope="col">Customer ID</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="r data">10</td>
+</tr>
+<tr>
+<td class="r data">12</td>
+</tr>
+<tr>
+<td class="r data">27</td>
+</tr>
+<tr>
+<td class="r data">31</td>
+</tr>
+<tr>
+<td class="r data">41</td>
+</tr>
+<tr>
+<td class="r data">89</td>
+</tr>
+<tr>
+<td class="r data">92</td>
+</tr>
+<tr>
+<td class="r data">171</td>
+</tr>
+<tr>
+<td class="r data">2806</td>
+</tr>
+<tr>
+<td class="r data">17023</td>
+</tr>
+<tr>
+<td class="r data">70100</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br></p><hr size="3">
+<a name="IDX8"></a>
+<table class="systitleandfootercontainer" rules="none" frame="void" summary="Page Layout" border="0" cellpadding="1" cellspacing="1" width="100%">
+<tbody><tr>
+<td class="c systemtitle"> Employess with different salaries in SALESSTAFF table and PAYROLL table </td>
+</tr>
+</tbody></table><br>
+<div>
+<div align="center">
+<table class="table" rules="all" frame="box" summary="Procedure SQL: Query Results" bordercolor="#C1C1C1" cellpadding="5" cellspacing="0">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r b header" scope="col">Row</th>
+<th class="r b header" scope="col">Employee ID</th>
+<th class="r b header" scope="col">Salary from SalesStaff</th>
+<th class="r b header" scope="col">Salary from Payroll</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r rowheader" scope="row">1</th>
+<td class="r data">120134</td>
+<td class="r data">$29,416</td>
+<td class="r data">28015</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">2</th>
+<td class="r data">120146</td>
+<td class="r data">$27,284</td>
+<td class="r data">25985</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">3</th>
+<td class="r data">120166</td>
+<td class="r data">$32,193</td>
+<td class="r data">30660</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">4</th>
+<td class="r data">120167</td>
+<td class="r data">$26,444</td>
+<td class="r data">25185</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br></p><hr size="3">
+<a name="IDX9"></a>
+<table class="systitleandfootercontainer" rules="none" frame="void" summary="Page Layout" border="0" cellpadding="1" cellspacing="1" width="100%">
+<tbody><tr>
+<td class="c systemtitle"> Employess with different salaries in SALESSTAFF table and PAYROLL table </td>
+</tr>
+</tbody></table><br>
+<div>
+<div align="center">
+<table class="table" rules="all" frame="box" summary="Procedure SQL: Query Results" bordercolor="#C1C1C1" cellpadding="5" cellspacing="0">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r b header" scope="col">Row</th>
+<th class="r b header" scope="col">Employee ID</th>
+<th class="r b header" scope="col">Salary from SalesStaff</th>
+<th class="r b header" scope="col">Salary from Payroll</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r rowheader" scope="row">1</th>
+<td class="r data">120134</td>
+<td class="r data">$29,416</td>
+<td class="r data">$28,015.00</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">2</th>
+<td class="r data">120146</td>
+<td class="r data">$27,284</td>
+<td class="r data">$25,985.00</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">3</th>
+<td class="r data">120166</td>
+<td class="r data">$32,193</td>
+<td class="r data">$30,660.00</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">4</th>
+<td class="r data">120167</td>
+<td class="r data">$26,444</td>
+<td class="r data">$25,185.00</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br></p><hr size="3">
+<a name="IDX10"></a>
+<table class="systitleandfootercontainer" rules="none" frame="void" summary="Page Layout" border="0" cellpadding="1" cellspacing="1" width="100%">
+<tbody><tr>
+<td class="c systemtitle"> Total sales for each product category limited by average computation  </td>
+</tr>
+</tbody></table><br>
+<div>
+<div align="center">
+<table class="table" rules="all" frame="box" summary="Procedure SQL: Query Results" bordercolor="#C1C1C1" cellpadding="5" cellspacing="0">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="l b header" scope="col">Product Category</th>
+<th class="r b header" scope="col"> Total Sales</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="l data">Children Sports</td>
+<td class="r data">$1,616.40</td>
+</tr>
+<tr>
+<td class="l data">Indoor Sports</td>
+<td class="r data">$6,383.20</td>
+</tr>
+<tr>
+<td class="l data">Racket Sports</td>
+<td class="r data">$3,334.30</td>
+</tr>
+<tr>
+<td class="l data">Running - Jogging</td>
+<td class="r data">$3,387.80</td>
+</tr>
+<tr>
+<td class="l data">Shoes</td>
+<td class="r data">$5,701.10</td>
+</tr>
+<tr>
+<td class="l data">Swim Sports</td>
+<td class="r data">$383.10</td>
+</tr>
+<tr>
+<td class="l data">Team Sports</td>
+<td class="r data">$2,043.77</td>
+</tr>
+<tr>
+<td class="l data">Winter Sports</td>
+<td class="r data">$4,349.33</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+</body></html>
